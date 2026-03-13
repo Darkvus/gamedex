@@ -1,0 +1,12 @@
+"""
+    AppConfig for franchises.
+"""
+from __future__ import annotations
+
+from django.apps import AppConfig
+
+
+class FranchisesConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "apps.franchises"
+    label = "franchises"
