@@ -11,3 +11,4 @@ staticfiles/
 db.sqlite3
 .coverage
 htmlcov/
+data/
