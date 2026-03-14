@@ -3,6 +3,10 @@
 """
 from __future__ import annotations
 
-from django.urls import URLPattern, path
+from rest_framework.routers import DefaultRouter
 
-urlpatterns: list[URLPattern] = []
+from apps.consoles.api.v1.views import ConsoleViewSet
+
+router = DefaultRouter()
+router.register(r"consoles", ConsoleViewSet, basename="console")
+urlpatterns = router.urls

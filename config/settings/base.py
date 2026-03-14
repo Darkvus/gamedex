@@ -11,14 +11,15 @@ SERVICE_NAME = "gamedex"
 BASE_PATH = ""
 MULTITENANT = False
 
+ROOT_URLCONF = "config.urls"
+
 INSTALLED_APPS = [  # type: ignore[name-defined]  # noqa: F405
+    "django.contrib.admin",
     *INSTALLED_APPS,
     "apps.games",
     "apps.consoles",
     "apps.companies",
     "apps.genres",
-    "apps.franchises",
-    "apps.releases",
 ]
 
 LOCAL_APPS: list[tuple[str, str]] = [
@@ -26,6 +27,4 @@ LOCAL_APPS: list[tuple[str, str]] = [
     ("apps.consoles.api.v1.urls", BASE_PATH),
     ("apps.companies.api.v1.urls", BASE_PATH),
     ("apps.genres.api.v1.urls", BASE_PATH),
-    ("apps.franchises.api.v1.urls", BASE_PATH),
-    ("apps.releases.api.v1.urls", BASE_PATH),
 ]

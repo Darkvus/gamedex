@@ -3,20 +3,21 @@
 """
 from __future__ import annotations
 
+from django.db import models
 from pyms_django.models import BaseModel
 
 
 class Genres(BaseModel):
-    """Genres model.
+    """Genres model."""
 
-    Add your fields here.
-    """
+    name = models.CharField(max_length=100, unique=True)
+    description = models.TextField(blank=True, default="")
 
     class Meta:
         app_label = "genres"
         db_table = "genres"
-        verbose_name = "genres"
-        verbose_name_plural = "genres"
+        ordering = ["name"]
+        verbose_name = "genre"
 
     def __str__(self) -> str:
-        return f"Genres({self.pk})"
+        return self.name

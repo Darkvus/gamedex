@@ -3,6 +3,10 @@
 """
 from __future__ import annotations
 
-from django.urls import URLPattern, path
+from rest_framework.routers import DefaultRouter
 
-urlpatterns: list[URLPattern] = []
+from apps.genres.api.v1.views import GenreViewSet
+
+router = DefaultRouter()
+router.register(r"genres", GenreViewSet, basename="genre")
+urlpatterns = router.urls

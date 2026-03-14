@@ -87,14 +87,13 @@ Services:
 
 ## 🧩 API Resources
 
-### Games
+> ✅ = Available now &nbsp;|&nbsp; 🔜 = Planned
+
+### Games ✅
 
 ```
-GET /games
-GET /games/{id}
-GET /games/{id}/consoles
-GET /games/{id}/releases
-GET /games/{id}/franchise
+GET /api/v1/games/
+GET /api/v1/games/{id}/
 ```
 
 Example:
@@ -111,91 +110,76 @@ Example:
 
 ---
 
-### Consoles
+### Consoles ✅
 
 ```
-GET /consoles
-GET /consoles/{id}
-GET /consoles/{id}/games
-```
-
----
-
-### Companies
-
-```
-GET /companies
-GET /companies/{id}
-GET /companies/{id}/games
+GET /api/v1/consoles/
+GET /api/v1/consoles/{id}/
 ```
 
 ---
 
-### Genres
+### Companies ✅
 
 ```
-GET /genres
-GET /genres/{id}
-GET /genres/{id}/games
+GET /api/v1/companies/
+GET /api/v1/companies/{id}/
 ```
 
 ---
 
-### Franchises
+### Genres ✅
 
 ```
-GET /franchises
-GET /franchises/{id}
-GET /franchises/{id}/games
+GET /api/v1/genres/
+GET /api/v1/genres/{id}/
+```
+
+---
+
+### Franchises 🔜
+
+```
+GET /api/v1/franchises/
+GET /api/v1/franchises/{id}/
+GET /api/v1/franchises/{id}/games/
+```
+
+---
+
+### Releases 🔜
+
+```
+GET /api/v1/releases/
+GET /api/v1/releases/{id}/
 ```
 
 ---
 
 ## 🚀 Installation
 
-Clone repository:
+### With Docker Compose (recommended)
 
 ```bash
 git clone https://github.com/Darkvus/gamedex.git
 cd gamedex
-```
-
-Install dependencies with uv:
-
-```bash
-uv sync
-```
-
-Copy env file:
-
-```bash
 cp .env.example .env
+docker compose up --build
 ```
 
-Run migrations:
+API available at `http://localhost:8000`.
+
+### Local development
+
+Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-uv run python manage.py migrate
-```
-
-Seed data:
-
-```bash
-uv run python manage.py seed_data
-```
-
-Run server:
-
-```bash
-uv run python manage.py runserver
-```
-
----
-
-## 🐳 Docker
-
-```bash
-docker-compose up --build
+git clone https://github.com/Darkvus/gamedex.git
+cd gamedex
+uv sync
+cp .env.example .env
+DJANGO_SETTINGS_MODULE=config.settings.dev uv run python manage.py migrate
+DJANGO_SETTINGS_MODULE=config.settings.dev uv run python manage.py runserver
 ```
 
 ---
@@ -206,33 +190,43 @@ docker-compose up --build
 gamedex
 │
 ├── apps
-│   ├── games
-│   ├── consoles
-│   ├── companies
-│   ├── genres
-│   ├── franchises
-│   └── releases
+│   ├── games         ✅
+│   ├── consoles      ✅
+│   ├── companies     ✅
+│   ├── genres        ✅
+│   ├── franchises    🔜
+│   └── releases      🔜
 │
 ├── config
 │   └── settings
 │       ├── base.py
 │       └── dev.py
-├── data
-│   ├── seeds
-│   └── importers
-├── docs
-├── docker
 ├── manage.py
 ├── pyproject.toml
 ├── docker-compose.yml
 └── README.md
 ```
 
+Each domain module follows Clean Architecture:
+
+```
+apps/<domain>/
+├── domain/           # Entities, value objects, aggregates, repository interfaces
+├── application/
+│   ├── use_cases/    # Orchestration + DTOs
+│   └── services/     # Business logic + DTOs
+├── infrastructure/
+│   ├── models.py     # Django ORM
+│   └── repositories/ # Repository implementations
+├── api/v1/           # Serializers, views, URLs
+└── migrations/
+```
+
 ---
 
 ## 🗄️ Data Model
 
-### Game
+### Game ✅
 
 | Field | Type |
 |-------|------|
@@ -242,13 +236,13 @@ gamedex
 | description | TextField |
 | release_year | IntegerField |
 | genre_id | FK → Genre |
-| franchise_id | FK → Franchise |
+| franchise_id | FK → Franchise 🔜 |
 | developer_id | FK → Company |
 | publisher_id | FK → Company |
 
 ---
 
-### Console
+### Console ✅
 
 | Field | Type |
 |-------|------|
@@ -261,7 +255,7 @@ gamedex
 
 ---
 
-### Company
+### Company ✅
 
 | Field | Type |
 |-------|------|
@@ -273,7 +267,7 @@ gamedex
 
 ---
 
-### Genre
+### Genre ✅
 
 | Field | Type |
 |-------|------|
@@ -283,7 +277,7 @@ gamedex
 
 ---
 
-### Franchise
+### Franchise 🔜
 
 | Field | Type |
 |-------|------|
@@ -293,7 +287,7 @@ gamedex
 
 ---
 
-### Release
+### Release 🔜
 
 | Field | Type |
 |-------|------|
@@ -350,39 +344,41 @@ Testing stack:
 
 -   pytest
 -   pytest-django
--   factory_boy
+-   pytest-mock
+-   pytest-cov
 
 Run tests:
 
 ```bash
 uv run pytest
+uv run pytest --cov=apps
 ```
 
 ---
 
 ## 🗺️ Roadmap
 
-### v1
+### v1 — Core catalog ✅ / 🔜
 
--   games
--   consoles
--   companies
--   genres
--   franchises
+- [x] Games
+- [x] Consoles
+- [x] Companies
+- [x] Genres
+- [ ] Franchises
+- [ ] Releases
 
-### v2
+### v2 — Extended data
 
--   characters
--   game engines
--   digital stores
--   sales data
+- [ ] Characters
+- [ ] Game engines
+- [ ] Digital stores
+- [ ] Sales data
 
-### v3
+### v3 — Community
 
--   ratings
--   reviews
--   screenshots
--   trailers
+- [ ] Ratings & reviews
+- [ ] Screenshots
+- [ ] Trailers
 
 ---
 
@@ -390,10 +386,15 @@ uv run pytest
 
 Contributions are welcome.
 
-1.  Fork repository
-2.  Create branch
-3.  Commit changes
-4.  Open Pull Request
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feat/your-feature`
+3. Commit following [Conventional Commits](https://www.conventionalcommits.org/)
+4. Run tests and linting before pushing:
+   ```bash
+   uv run ruff check .
+   uv run pytest
+   ```
+5. Open a Pull Request
 
 ---
 

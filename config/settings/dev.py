@@ -9,3 +9,15 @@ from config.settings.base import *  # noqa: F401,F403
 
 DEBUG = True
 ALLOWED_HOSTS = ["*"]
+
+INSTALLED_APPS = [  # type: ignore[name-defined]  # noqa: F405
+    *INSTALLED_APPS,
+    "debug_toolbar",
+]
+
+MIDDLEWARE = [  # type: ignore[name-defined]  # noqa: F405
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
+    *MIDDLEWARE,
+]
+
+INTERNAL_IPS = ["127.0.0.1"]

@@ -1,0 +1,607 @@
+[
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000001",
+    "fields": {
+      "name": "Super Mario Bros",
+      "slug": "super-mario-bros",
+      "description": "The iconic side-scrolling platformer that defined the NES era. Mario must rescue Princess Peach from Bowser across the Mushroom Kingdom.",
+      "release_year": 1985,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000001"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000002",
+    "fields": {
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "slug": "the-legend-of-zelda-ocarina-of-time",
+      "description": "A landmark action-adventure game following Link through 3D Hyrule to stop Ganondorf. Widely considered one of the greatest games ever made.",
+      "release_year": 1998,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000003"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000003",
+    "fields": {
+      "name": "Sonic the Hedgehog",
+      "slug": "sonic-the-hedgehog",
+      "description": "Sega's answer to Mario, featuring the fast blue hedgehog in a colorful world of loops and speed.",
+      "release_year": 1991,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000004",
+      "publisher": "22222222-0000-0000-0000-000000000004",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000023"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000004",
+    "fields": {
+      "name": "Street Fighter II",
+      "slug": "street-fighter-ii",
+      "description": "The definitive fighting game that popularized the genre, featuring eight playable world warriors.",
+      "release_year": 1991,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000005",
+    "fields": {
+      "name": "Final Fantasy VII",
+      "slug": "final-fantasy-vii",
+      "description": "A groundbreaking JRPG following Cloud Strife and his allies fighting the megacorporation Shinra and the villain Sephiroth.",
+      "release_year": 1997,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000012"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000006",
+    "fields": {
+      "name": "Metal Gear Solid",
+      "slug": "metal-gear-solid",
+      "description": "A stealth action game following Solid Snake infiltrating a nuclear weapons facility to stop a renegade special forces unit.",
+      "release_year": 1998,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000007",
+      "publisher": "22222222-0000-0000-0000-000000000007",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000012"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000007",
+    "fields": {
+      "name": "Resident Evil",
+      "slug": "resident-evil",
+      "description": "The seminal survival horror game set in a mansion filled with zombies and biological horrors.",
+      "release_year": 1996,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000012"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000008",
+    "fields": {
+      "name": "Grand Theft Auto V",
+      "slug": "grand-theft-auto-v",
+      "description": "An open-world crime epic following three criminals in the fictional city of Los Santos. One of the best-selling games of all time.",
+      "release_year": 2013,
+      "genre": "11111111-0000-0000-0000-000000000013",
+      "developer": "22222222-0000-0000-0000-000000000013",
+      "publisher": "22222222-0000-0000-0000-000000000013",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000015",
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000021"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000009",
+    "fields": {
+      "name": "Red Dead Redemption 2",
+      "slug": "red-dead-redemption-2",
+      "description": "An epic tale of outlaws in America's unforgiving heartland, set in 1899 during the decline of the Wild West era.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000013",
+      "publisher": "22222222-0000-0000-0000-000000000013",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000015",
+        "33333333-0000-0000-0000-000000000021"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000010",
+    "fields": {
+      "name": "The Witcher 3: Wild Hunt",
+      "slug": "the-witcher-3-wild-hunt",
+      "description": "An award-winning open-world RPG following Geralt of Rivia searching for his surrogate daughter across a war-ravaged continent.",
+      "release_year": 2015,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000015",
+      "publisher": "22222222-0000-0000-0000-000000000015",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000015",
+        "33333333-0000-0000-0000-000000000021",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000011",
+    "fields": {
+      "name": "Half-Life 2",
+      "slug": "half-life-2",
+      "description": "A revolutionary FPS following Gordon Freeman in a dystopian Earth under alien occupation, praised for its physics and storytelling.",
+      "release_year": 2004,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000014",
+      "publisher": "22222222-0000-0000-0000-000000000014",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000012",
+    "fields": {
+      "name": "Super Mario 64",
+      "slug": "super-mario-64",
+      "description": "Nintendo's landmark 3D platformer that set the standard for 3D gaming, featuring Mario exploring Princess Peach's castle.",
+      "release_year": 1996,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000003"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000013",
+    "fields": {
+      "name": "Halo: Combat Evolved",
+      "slug": "halo-combat-evolved",
+      "description": "The FPS that launched Xbox and redefined console shooters, following Master Chief battling the alien Covenant.",
+      "release_year": 2001,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000014",
+    "fields": {
+      "name": "Pac-Man",
+      "slug": "pac-man",
+      "description": "The timeless arcade classic where a yellow character navigates mazes eating dots while avoiding ghosts.",
+      "release_year": 1980,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000012",
+      "publisher": "22222222-0000-0000-0000-000000000012",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000015",
+    "fields": {
+      "name": "Tetris",
+      "slug": "tetris",
+      "description": "The legendary puzzle game where players arrange falling blocks to clear lines. One of the most played games in history.",
+      "release_year": 1984,
+      "genre": "11111111-0000-0000-0000-000000000007",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000008"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000016",
+    "fields": {
+      "name": "FIFA 23",
+      "slug": "fifa-23",
+      "description": "EA Sports football simulation with updated rosters and HyperMotion2 technology.",
+      "release_year": 2022,
+      "genre": "11111111-0000-0000-0000-000000000008",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000016",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000017",
+    "fields": {
+      "name": "Mario Kart 8 Deluxe",
+      "slug": "mario-kart-8-deluxe",
+      "description": "Nintendo's definitive kart racing game with 48+ tracks and support for up to 12 online players.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000009",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000018",
+    "fields": {
+      "name": "Civilization VI",
+      "slug": "civilization-vi",
+      "description": "A turn-based strategy game where players guide a civilization from ancient times to the space age.",
+      "release_year": 2016,
+      "genre": "11111111-0000-0000-0000-000000000010",
+      "developer": "22222222-0000-0000-0000-000000000011",
+      "publisher": "22222222-0000-0000-0000-000000000011",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000019",
+    "fields": {
+      "name": "The Sims 4",
+      "slug": "the-sims-4",
+      "description": "A life simulation game where players create and control people, build homes, and form relationships.",
+      "release_year": 2014,
+      "genre": "11111111-0000-0000-0000-000000000012",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000015",
+        "33333333-0000-0000-0000-000000000021"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000020",
+    "fields": {
+      "name": "Minecraft",
+      "slug": "minecraft",
+      "description": "The world's best-selling game: a sandbox of infinite possibilities where players build, explore, and survive in procedurally generated worlds.",
+      "release_year": 2011,
+      "genre": "11111111-0000-0000-0000-000000000013",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000016",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000021",
+    "fields": {
+      "name": "Pokémon Red and Blue",
+      "slug": "pokemon-red-and-blue",
+      "description": "The original monster-catching RPG that started a global phenomenon, where players collect and battle Pokémon across the Kanto region.",
+      "release_year": 1996,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000008"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000022",
+    "fields": {
+      "name": "God of War",
+      "slug": "god-of-war",
+      "description": "A mythological action-adventure following Kratos and his son Atreus through Norse mythology.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000015"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000023",
+    "fields": {
+      "name": "The Last of Us",
+      "slug": "the-last-of-us",
+      "description": "A post-apocalyptic survival story following Joel and Ellie across a fungal-infected United States.",
+      "release_year": 2013,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000014",
+        "33333333-0000-0000-0000-000000000015"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000024",
+    "fields": {
+      "name": "Dark Souls",
+      "slug": "dark-souls",
+      "description": "FromSoftware's brutal yet rewarding action RPG in a dark fantasy world full of intricate lore and demanding combat.",
+      "release_year": 2011,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000012",
+      "publisher": "22222222-0000-0000-0000-000000000012",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000014",
+        "33333333-0000-0000-0000-000000000020"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000025",
+    "fields": {
+      "name": "Donkey Kong",
+      "slug": "donkey-kong",
+      "description": "The classic arcade game where Jumpman (later Mario) climbs ladders and jumps barrels to rescue Pauline from a giant ape.",
+      "release_year": 1981,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000026",
+    "fields": {
+      "name": "Mortal Kombat II",
+      "slug": "mortal-kombat-ii",
+      "description": "The brutal fighting game sequel that expanded the roster and introduced iconic fatalities into popular culture.",
+      "release_year": 1993,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000011",
+      "publisher": "22222222-0000-0000-0000-000000000011",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002",
+        "33333333-0000-0000-0000-000000000023"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000027",
+    "fields": {
+      "name": "Gran Turismo 7",
+      "slug": "gran-turismo-7",
+      "description": "PlayStation's premier racing simulator featuring hundreds of cars and tracks with unparalleled realism.",
+      "release_year": 2022,
+      "genre": "11111111-0000-0000-0000-000000000009",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000015",
+        "33333333-0000-0000-0000-000000000016"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000028",
+    "fields": {
+      "name": "Crash Bandicoot",
+      "slug": "crash-bandicoot",
+      "description": "PlayStation's beloved platformer mascot navigating jungle obstacles in pursuit of the villainous Dr. Neo Cortex.",
+      "release_year": 1996,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000011",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000012"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000029",
+    "fields": {
+      "name": "Tekken 3",
+      "slug": "tekken-3",
+      "description": "Namco's acclaimed 3D fighting game featuring a new generation of fighters in the King of Iron Fist Tournament.",
+      "release_year": 1997,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000012",
+      "publisher": "22222222-0000-0000-0000-000000000012",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000012"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000030",
+    "fields": {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "slug": "the-legend-of-zelda-breath-of-the-wild",
+      "description": "A revolutionary open-world Zelda that redefines exploration and freedom in gaming, set in a ruined Hyrule.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]

@@ -3,6 +3,10 @@
 """
 from __future__ import annotations
 
-from django.urls import URLPattern, path
+from rest_framework.routers import DefaultRouter
 
-urlpatterns: list[URLPattern] = []
+from apps.games.api.v1.views import GameViewSet
+
+router = DefaultRouter()
+router.register(r"games", GameViewSet, basename="game")
+urlpatterns = router.urls
