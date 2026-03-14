@@ -6,6 +6,7 @@ dependencies = [
     "django>=5.2,<6.0",
     "pyms-django-chassis[docs,dev-tools]",
     "django-import-export>=4.0",
+    "django-modeltranslation>=0.18",
     "gunicorn>=21.0",
     "psycopg2-binary>=2.9",
 ]

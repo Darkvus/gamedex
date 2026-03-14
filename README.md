@@ -356,6 +356,52 @@ uv run pytest --cov=apps
 
 ---
 
+## 🗂️ Loading Fixtures via Django Admin
+
+Each app includes pre-built fixture files in `fixtures/import/` in django-import-export JSON format (flat, human-readable, using names instead of UUIDs).
+
+### Order (respect dependencies)
+
+| Step | App | Fixture file |
+|------|-----|-------------|
+| 1 | Genres | `apps/genres/fixtures/import/genres.json` |
+| 2 | Companies | `apps/companies/fixtures/import/companies.json` |
+| 3 | Consoles | `apps/consoles/fixtures/import/consoles.json` |
+| 4 | Games | `apps/games/fixtures/import/games.json` |
+
+> Games depend on Genres, Companies, and Consoles — always load them last.
+
+### Option A — Admin action (one click)
+
+1. Go to `/admin/`
+2. Open the list for the model (e.g. Genres)
+3. Select any row (the action ignores the selection)
+4. Choose **"Load genres from fixture"** from the Actions dropdown
+5. Click **Go**
+6. Repeat for each model in order
+
+### Option B — Admin Import button (custom file)
+
+1. Go to `/admin/` and open the model list
+2. Click **Import** (top right)
+3. Upload the corresponding JSON file from `fixtures/import/`
+4. Choose format **JSON**
+5. Confirm the import
+
+### Option C — loaddata (CLI)
+
+```bash
+docker compose exec app python manage.py loaddata \
+  apps/genres/fixtures/genres.json \
+  apps/companies/fixtures/companies.json \
+  apps/consoles/fixtures/consoles.json \
+  apps/games/fixtures/games.json
+```
+
+> This uses the UUID-based fixtures in `fixtures/` (not `fixtures/import/`) and is run automatically on container startup.
+
+---
+
 ## 🗺️ Roadmap
 
 ### v1 — Core catalog ✅ / 🔜

@@ -1,0 +1,17 @@
+[
+  {"name_en": "Nintendo", "name_es": "Nintendo", "country": "Japan", "founded": 1889, "website": "https://www.nintendo.com", "active": true},
+  {"name_en": "Sony Interactive Entertainment", "name_es": "Sony Interactive Entertainment", "country": "Japan", "founded": 1993, "website": "https://www.sie.com", "active": true},
+  {"name_en": "Xbox Game Studios", "name_es": "Xbox Game Studios", "country": "United States", "founded": 2000, "website": "https://www.xbox.com", "active": true},
+  {"name_en": "Sega", "name_es": "Sega", "country": "Japan", "founded": 1945, "website": "https://www.sega.com", "active": true},
+  {"name_en": "Atari", "name_es": "Atari", "country": "United States", "founded": 1972, "website": "https://www.atari.com", "active": true},
+  {"name_en": "Capcom", "name_es": "Capcom", "country": "Japan", "founded": 1979, "website": "https://www.capcom.com", "active": true},
+  {"name_en": "Konami", "name_es": "Konami", "country": "Japan", "founded": 1969, "website": "https://www.konami.com", "active": true},
+  {"name_en": "Square Enix", "name_es": "Square Enix", "country": "Japan", "founded": 1975, "website": "https://www.square-enix.com", "active": true},
+  {"name_en": "Ubisoft", "name_es": "Ubisoft", "country": "France", "founded": 1986, "website": "https://www.ubisoft.com", "active": true},
+  {"name_en": "Electronic Arts", "name_es": "Electronic Arts", "country": "United States", "founded": 1982, "website": "https://www.ea.com", "active": true},
+  {"name_en": "Activision Blizzard", "name_es": "Activision Blizzard", "country": "United States", "founded": 1979, "website": "https://www.activisionblizzard.com", "active": true},
+  {"name_en": "Bandai Namco", "name_es": "Bandai Namco", "country": "Japan", "founded": 1955, "website": "https://www.bandainamcoent.com", "active": true},
+  {"name_en": "Rockstar Games", "name_es": "Rockstar Games", "country": "United States", "founded": 1998, "website": "https://www.rockstargames.com", "active": true},
+  {"name_en": "Valve", "name_es": "Valve", "country": "United States", "founded": 1996, "website": "https://www.valvesoftware.com", "active": true},
+  {"name_en": "CD Projekt", "name_es": "CD Projekt", "country": "Poland", "founded": 1994, "website": "https://www.cdprojekt.com", "active": true}
+]
