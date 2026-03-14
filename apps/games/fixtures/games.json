@@ -3,605 +3,720 @@
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000001",
     "fields": {
-      "name": "Super Mario Bros",
+      "name_en": "Super Mario Bros", "name_es": "Super Mario Bros",
       "slug": "super-mario-bros",
-      "description": "The iconic side-scrolling platformer that defined the NES era. Mario must rescue Princess Peach from Bowser across the Mushroom Kingdom.",
+      "description_en": "The iconic side-scrolling platformer that defined the NES era. Mario must rescue Princess Peach from Bowser across the Mushroom Kingdom.",
+      "description_es": "El icónico plataformas de desplazamiento lateral que definió la era NES. Mario debe rescatar a la Princesa Peach de Bowser en el Reino Champiñón.",
       "release_year": 1985,
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000001"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000001"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000002",
     "fields": {
-      "name": "The Legend of Zelda: Ocarina of Time",
+      "name_en": "The Legend of Zelda: Ocarina of Time", "name_es": "The Legend of Zelda: Ocarina del Tiempo",
       "slug": "the-legend-of-zelda-ocarina-of-time",
-      "description": "A landmark action-adventure game following Link through 3D Hyrule to stop Ganondorf. Widely considered one of the greatest games ever made.",
+      "description_en": "A landmark action-adventure game following Link through 3D Hyrule to stop Ganondorf. Widely considered one of the greatest games ever made.",
+      "description_es": "Un juego de acción y aventura que sigue a Link por Hyrule en 3D para detener a Ganondorf. Considerado uno de los mejores juegos de la historia.",
       "release_year": 1998,
       "genre": "11111111-0000-0000-0000-000000000002",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000003"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000003"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000003",
     "fields": {
-      "name": "Sonic the Hedgehog",
+      "name_en": "Sonic the Hedgehog", "name_es": "Sonic el Erizo",
       "slug": "sonic-the-hedgehog",
-      "description": "Sega's answer to Mario, featuring the fast blue hedgehog in a colorful world of loops and speed.",
+      "description_en": "Sega's answer to Mario, featuring the fast blue hedgehog in a colorful world of loops and speed.",
+      "description_es": "La respuesta de Sega a Mario: el erizo azul veloz en un colorido mundo de bucles y velocidad.",
       "release_year": 1991,
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000004",
       "publisher": "22222222-0000-0000-0000-000000000004",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000023"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000032"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000004",
     "fields": {
-      "name": "Street Fighter II",
+      "name_en": "Street Fighter II", "name_es": "Street Fighter II",
       "slug": "street-fighter-ii",
-      "description": "The definitive fighting game that popularized the genre, featuring eight playable world warriors.",
+      "description_en": "The definitive fighting game that popularized the genre, featuring eight playable world warriors.",
+      "description_es": "El juego de lucha definitivo que popularizó el género, con ocho guerreros del mundo jugables.",
       "release_year": 1991,
       "genre": "11111111-0000-0000-0000-000000000006",
       "developer": "22222222-0000-0000-0000-000000000006",
       "publisher": "22222222-0000-0000-0000-000000000006",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000002"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000002"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000005",
     "fields": {
-      "name": "Final Fantasy VII",
+      "name_en": "Final Fantasy VII", "name_es": "Final Fantasy VII",
       "slug": "final-fantasy-vii",
-      "description": "A groundbreaking JRPG following Cloud Strife and his allies fighting the megacorporation Shinra and the villain Sephiroth.",
+      "description_en": "A groundbreaking JRPG following Cloud Strife and his allies fighting the megacorporation Shinra and the villain Sephiroth.",
+      "description_es": "Un JRPG revolucionario que sigue a Cloud Strife y sus aliados luchando contra la megacorporación Shinra y el villano Sephiroth.",
       "release_year": 1997,
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000008",
       "publisher": "22222222-0000-0000-0000-000000000008",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000012"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000017"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000006",
     "fields": {
-      "name": "Metal Gear Solid",
+      "name_en": "Metal Gear Solid", "name_es": "Metal Gear Solid",
       "slug": "metal-gear-solid",
-      "description": "A stealth action game following Solid Snake infiltrating a nuclear weapons facility to stop a renegade special forces unit.",
+      "description_en": "A stealth action game following Solid Snake infiltrating a nuclear weapons facility to stop a renegade special forces unit.",
+      "description_es": "Un juego de acción sigilosa donde Solid Snake infiltra una instalación de armas nucleares para detener a una unidad de fuerzas especiales renegadas.",
       "release_year": 1998,
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000007",
       "publisher": "22222222-0000-0000-0000-000000000007",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000012"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000017"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000007",
     "fields": {
-      "name": "Resident Evil",
+      "name_en": "Resident Evil", "name_es": "Resident Evil",
       "slug": "resident-evil",
-      "description": "The seminal survival horror game set in a mansion filled with zombies and biological horrors.",
+      "description_en": "The seminal survival horror game set in a mansion filled with zombies and biological horrors.",
+      "description_es": "El juego de terror de supervivencia seminal ambientado en una mansión llena de zombis y horrores biológicos.",
       "release_year": 1996,
       "genre": "11111111-0000-0000-0000-000000000011",
       "developer": "22222222-0000-0000-0000-000000000006",
       "publisher": "22222222-0000-0000-0000-000000000006",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000012"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000017"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000008",
     "fields": {
-      "name": "Grand Theft Auto V",
+      "name_en": "Grand Theft Auto V", "name_es": "Grand Theft Auto V",
       "slug": "grand-theft-auto-v",
-      "description": "An open-world crime epic following three criminals in the fictional city of Los Santos. One of the best-selling games of all time.",
+      "description_en": "An open-world crime epic following three criminals in the fictional city of Los Santos. One of the best-selling games of all time.",
+      "description_es": "Una épica criminal de mundo abierto con tres criminales en la ficticia ciudad de Los Santos. Uno de los juegos más vendidos de todos los tiempos.",
       "release_year": 2013,
       "genre": "11111111-0000-0000-0000-000000000013",
       "developer": "22222222-0000-0000-0000-000000000013",
       "publisher": "22222222-0000-0000-0000-000000000013",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000015",
-        "33333333-0000-0000-0000-000000000020",
-        "33333333-0000-0000-0000-000000000021"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000026", "33333333-0000-0000-0000-000000000027"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000009",
     "fields": {
-      "name": "Red Dead Redemption 2",
+      "name_en": "Red Dead Redemption 2", "name_es": "Red Dead Redemption 2",
       "slug": "red-dead-redemption-2",
-      "description": "An epic tale of outlaws in America's unforgiving heartland, set in 1899 during the decline of the Wild West era.",
+      "description_en": "An epic tale of outlaws in America's unforgiving heartland, set in 1899 during the decline of the Wild West era.",
+      "description_es": "Una épica historia de forajidos en el corazón implacable de América, ambientada en 1899 durante el declive del Lejano Oeste.",
       "release_year": 2018,
       "genre": "11111111-0000-0000-0000-000000000002",
       "developer": "22222222-0000-0000-0000-000000000013",
       "publisher": "22222222-0000-0000-0000-000000000013",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000015",
-        "33333333-0000-0000-0000-000000000021"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000010",
     "fields": {
-      "name": "The Witcher 3: Wild Hunt",
+      "name_en": "The Witcher 3: Wild Hunt", "name_es": "The Witcher 3: Caza Salvaje",
       "slug": "the-witcher-3-wild-hunt",
-      "description": "An award-winning open-world RPG following Geralt of Rivia searching for his surrogate daughter across a war-ravaged continent.",
+      "description_en": "An award-winning open-world RPG following Geralt of Rivia searching for his surrogate daughter across a war-ravaged continent.",
+      "description_es": "Un RPG de mundo abierto galardonado donde Geralt de Rivia busca a su hija adoptiva por un continente devastado por la guerra.",
       "release_year": 2015,
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000015",
       "publisher": "22222222-0000-0000-0000-000000000015",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000015",
-        "33333333-0000-0000-0000-000000000021",
-        "33333333-0000-0000-0000-000000000007"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000007"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000011",
     "fields": {
-      "name": "Half-Life 2",
+      "name_en": "Half-Life 2", "name_es": "Half-Life 2",
       "slug": "half-life-2",
-      "description": "A revolutionary FPS following Gordon Freeman in a dystopian Earth under alien occupation, praised for its physics and storytelling.",
+      "description_en": "A revolutionary FPS following Gordon Freeman in a dystopian Earth under alien occupation, praised for its physics and storytelling.",
+      "description_es": "Un FPS revolucionario con Gordon Freeman en una Tierra distópica bajo ocupación alienígena, elogiado por su física y narrativa.",
       "release_year": 2004,
       "genre": "11111111-0000-0000-0000-000000000005",
       "developer": "22222222-0000-0000-0000-000000000014",
       "publisher": "22222222-0000-0000-0000-000000000014",
       "consoles": [],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000012",
     "fields": {
-      "name": "Super Mario 64",
+      "name_en": "Super Mario 64", "name_es": "Super Mario 64",
       "slug": "super-mario-64",
-      "description": "Nintendo's landmark 3D platformer that set the standard for 3D gaming, featuring Mario exploring Princess Peach's castle.",
+      "description_en": "Nintendo's landmark 3D platformer that set the standard for 3D gaming, featuring Mario exploring Princess Peach's castle.",
+      "description_es": "El revolucionario plataformas 3D de Nintendo que marcó el estándar del juego en 3D, con Mario explorando el castillo de la Princesa Peach.",
       "release_year": 1996,
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000003"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000003"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000013",
     "fields": {
-      "name": "Halo: Combat Evolved",
+      "name_en": "Halo: Combat Evolved", "name_es": "Halo: Combat Evolved",
       "slug": "halo-combat-evolved",
-      "description": "The FPS that launched Xbox and redefined console shooters, following Master Chief battling the alien Covenant.",
+      "description_en": "The FPS that launched Xbox and redefined console shooters, following Master Chief battling the alien Covenant.",
+      "description_es": "El FPS que lanzó Xbox y redefinió los shooters de consola, con el Jefe Maestro combatiendo al Covenant alienígena.",
       "release_year": 2001,
       "genre": "11111111-0000-0000-0000-000000000005",
       "developer": "22222222-0000-0000-0000-000000000003",
       "publisher": "22222222-0000-0000-0000-000000000003",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000019"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000025"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000014",
     "fields": {
-      "name": "Pac-Man",
+      "name_en": "Pac-Man", "name_es": "Pac-Man",
       "slug": "pac-man",
-      "description": "The timeless arcade classic where a yellow character navigates mazes eating dots while avoiding ghosts.",
+      "description_en": "The timeless arcade classic where a yellow character navigates mazes eating dots while avoiding ghosts.",
+      "description_es": "El clásico atemporal de arcade donde un personaje amarillo navega laberintos comiendo puntos y evitando fantasmas.",
       "release_year": 1980,
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000012",
       "publisher": "22222222-0000-0000-0000-000000000012",
       "consoles": [],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000015",
     "fields": {
-      "name": "Tetris",
+      "name_en": "Tetris", "name_es": "Tetris",
       "slug": "tetris",
-      "description": "The legendary puzzle game where players arrange falling blocks to clear lines. One of the most played games in history.",
+      "description_en": "The legendary puzzle game where players arrange falling blocks to clear lines. One of the most played games in history.",
+      "description_es": "El legendario juego de puzzles donde los jugadores colocan bloques que caen para limpiar líneas. Uno de los más jugados de la historia.",
       "release_year": 1984,
       "genre": "11111111-0000-0000-0000-000000000007",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000008"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000009"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000016",
     "fields": {
-      "name": "FIFA 23",
+      "name_en": "FIFA 23", "name_es": "FIFA 23",
       "slug": "fifa-23",
-      "description": "EA Sports football simulation with updated rosters and HyperMotion2 technology.",
+      "description_en": "EA Sports football simulation with updated rosters and HyperMotion2 technology.",
+      "description_es": "Simulación de fútbol de EA Sports con plantillas actualizadas y tecnología HyperMotion2.",
       "release_year": 2022,
       "genre": "11111111-0000-0000-0000-000000000008",
       "developer": "22222222-0000-0000-0000-000000000010",
       "publisher": "22222222-0000-0000-0000-000000000010",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000016",
-        "33333333-0000-0000-0000-000000000022"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000029"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000017",
     "fields": {
-      "name": "Mario Kart 8 Deluxe",
+      "name_en": "Mario Kart 8 Deluxe", "name_es": "Mario Kart 8 Deluxe",
       "slug": "mario-kart-8-deluxe",
-      "description": "Nintendo's definitive kart racing game with 48+ tracks and support for up to 12 online players.",
+      "description_en": "Nintendo's definitive kart racing game with 48+ tracks and support for up to 12 online players.",
+      "description_es": "El definitivo juego de karts de Nintendo con más de 48 circuitos y soporte para hasta 12 jugadores en línea.",
       "release_year": 2017,
       "genre": "11111111-0000-0000-0000-000000000009",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000007"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000007"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000018",
     "fields": {
-      "name": "Civilization VI",
+      "name_en": "Civilization VI", "name_es": "Civilización VI",
       "slug": "civilization-vi",
-      "description": "A turn-based strategy game where players guide a civilization from ancient times to the space age.",
+      "description_en": "A turn-based strategy game where players guide a civilization from ancient times to the space age.",
+      "description_es": "Un juego de estrategia por turnos donde los jugadores guían una civilización desde la antigüedad hasta la era espacial.",
       "release_year": 2016,
       "genre": "11111111-0000-0000-0000-000000000010",
       "developer": "22222222-0000-0000-0000-000000000011",
       "publisher": "22222222-0000-0000-0000-000000000011",
       "consoles": [],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000019",
     "fields": {
-      "name": "The Sims 4",
+      "name_en": "The Sims 4", "name_es": "Los Sims 4",
       "slug": "the-sims-4",
-      "description": "A life simulation game where players create and control people, build homes, and form relationships.",
+      "description_en": "A life simulation game where players create and control people, build homes, and form relationships.",
+      "description_es": "Un juego de simulación de vida donde los jugadores crean y controlan personas, construyen hogares y forman relaciones.",
       "release_year": 2014,
       "genre": "11111111-0000-0000-0000-000000000012",
       "developer": "22222222-0000-0000-0000-000000000010",
       "publisher": "22222222-0000-0000-0000-000000000010",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000015",
-        "33333333-0000-0000-0000-000000000021"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000020",
     "fields": {
-      "name": "Minecraft",
+      "name_en": "Minecraft", "name_es": "Minecraft",
       "slug": "minecraft",
-      "description": "The world's best-selling game: a sandbox of infinite possibilities where players build, explore, and survive in procedurally generated worlds.",
+      "description_en": "The world's best-selling game: a sandbox of infinite possibilities where players build, explore, and survive in procedurally generated worlds.",
+      "description_es": "El juego más vendido del mundo: un sandbox de posibilidades infinitas donde los jugadores construyen, exploran y sobreviven en mundos generados proceduralmente.",
       "release_year": 2011,
       "genre": "11111111-0000-0000-0000-000000000013",
       "developer": "22222222-0000-0000-0000-000000000003",
       "publisher": "22222222-0000-0000-0000-000000000003",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000007",
-        "33333333-0000-0000-0000-000000000016",
-        "33333333-0000-0000-0000-000000000022"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000007", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000029"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000021",
     "fields": {
-      "name": "Pokémon Red and Blue",
+      "name_en": "Pokémon Red and Blue", "name_es": "Pokémon Rojo y Azul",
       "slug": "pokemon-red-and-blue",
-      "description": "The original monster-catching RPG that started a global phenomenon, where players collect and battle Pokémon across the Kanto region.",
+      "description_en": "The original monster-catching RPG that started a global phenomenon, where players collect and battle Pokémon across the Kanto region.",
+      "description_es": "El RPG original de captura de monstruos que inició un fenómeno global, donde los jugadores coleccionan y batallan Pokémon en la región Kanto.",
       "release_year": 1996,
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000008"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000009"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000022",
     "fields": {
-      "name": "God of War",
+      "name_en": "God of War", "name_es": "God of War",
       "slug": "god-of-war",
-      "description": "A mythological action-adventure following Kratos and his son Atreus through Norse mythology.",
+      "description_en": "A mythological action-adventure following Kratos and his son Atreus through Norse mythology.",
+      "description_es": "Una aventura de acción mitológica que sigue a Kratos y su hijo Atreo a través de la mitología nórdica.",
       "release_year": 2018,
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000002",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000015"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000020"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000023",
     "fields": {
-      "name": "The Last of Us",
+      "name_en": "The Last of Us", "name_es": "The Last of Us",
       "slug": "the-last-of-us",
-      "description": "A post-apocalyptic survival story following Joel and Ellie across a fungal-infected United States.",
+      "description_en": "A post-apocalyptic survival story following Joel and Ellie across a fungal-infected United States.",
+      "description_es": "Una historia de supervivencia postapocalíptica que sigue a Joel y Ellie por un Estados Unidos infectado por hongos.",
       "release_year": 2013,
       "genre": "11111111-0000-0000-0000-000000000011",
       "developer": "22222222-0000-0000-0000-000000000002",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000014",
-        "33333333-0000-0000-0000-000000000015"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000019", "33333333-0000-0000-0000-000000000020"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000024",
     "fields": {
-      "name": "Dark Souls",
+      "name_en": "Dark Souls", "name_es": "Dark Souls",
       "slug": "dark-souls",
-      "description": "FromSoftware's brutal yet rewarding action RPG in a dark fantasy world full of intricate lore and demanding combat.",
+      "description_en": "FromSoftware's brutal yet rewarding action RPG in a dark fantasy world full of intricate lore and demanding combat.",
+      "description_es": "El brutal pero gratificante RPG de acción de FromSoftware en un mundo de fantasía oscura con combate exigente.",
       "release_year": 2011,
       "genre": "11111111-0000-0000-0000-000000000003",
-      "developer": "22222222-0000-0000-0000-000000000012",
+      "developer": "22222222-0000-0000-0000-000000000016",
       "publisher": "22222222-0000-0000-0000-000000000012",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000014",
-        "33333333-0000-0000-0000-000000000020"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000019", "33333333-0000-0000-0000-000000000026"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000025",
     "fields": {
-      "name": "Donkey Kong",
+      "name_en": "Donkey Kong", "name_es": "Donkey Kong",
       "slug": "donkey-kong",
-      "description": "The classic arcade game where Jumpman (later Mario) climbs ladders and jumps barrels to rescue Pauline from a giant ape.",
+      "description_en": "The classic arcade game where Jumpman (later Mario) climbs ladders and jumps barrels to rescue Pauline from a giant ape.",
+      "description_es": "El clásico juego de arcade donde Jumpman (luego Mario) sube escaleras y salta barriles para rescatar a Pauline de un gorila gigante.",
       "release_year": 1981,
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
       "consoles": [],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000026",
     "fields": {
-      "name": "Mortal Kombat II",
+      "name_en": "Mortal Kombat II", "name_es": "Mortal Kombat II",
       "slug": "mortal-kombat-ii",
-      "description": "The brutal fighting game sequel that expanded the roster and introduced iconic fatalities into popular culture.",
+      "description_en": "The brutal fighting game sequel that expanded the roster and introduced iconic fatalities into popular culture.",
+      "description_es": "La brutal secuela del juego de lucha que amplió el plantel e introdujo los icónicos fatalities en la cultura popular.",
       "release_year": 1993,
       "genre": "11111111-0000-0000-0000-000000000006",
       "developer": "22222222-0000-0000-0000-000000000011",
       "publisher": "22222222-0000-0000-0000-000000000011",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000002",
-        "33333333-0000-0000-0000-000000000023"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000002", "33333333-0000-0000-0000-000000000032"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000027",
     "fields": {
-      "name": "Gran Turismo 7",
+      "name_en": "Gran Turismo 7", "name_es": "Gran Turismo 7",
       "slug": "gran-turismo-7",
-      "description": "PlayStation's premier racing simulator featuring hundreds of cars and tracks with unparalleled realism.",
+      "description_en": "PlayStation's premier racing simulator featuring hundreds of cars and tracks with unparalleled realism.",
+      "description_es": "El simulador de carreras premier de PlayStation con cientos de coches y circuitos con un realismo sin igual.",
       "release_year": 2022,
       "genre": "11111111-0000-0000-0000-000000000009",
       "developer": "22222222-0000-0000-0000-000000000002",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000015",
-        "33333333-0000-0000-0000-000000000016"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000028",
     "fields": {
-      "name": "Crash Bandicoot",
+      "name_en": "Crash Bandicoot", "name_es": "Crash Bandicoot",
       "slug": "crash-bandicoot",
-      "description": "PlayStation's beloved platformer mascot navigating jungle obstacles in pursuit of the villainous Dr. Neo Cortex.",
+      "description_en": "PlayStation's beloved platformer mascot navigating jungle obstacles in pursuit of the villainous Dr. Neo Cortex.",
+      "description_es": "La querida mascota plataformera de PlayStation navegando obstáculos de la jungla en busca del villano Dr. Neo Cortex.",
       "release_year": 1996,
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000011",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000012"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000017"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000029",
     "fields": {
-      "name": "Tekken 3",
+      "name_en": "Tekken 3", "name_es": "Tekken 3",
       "slug": "tekken-3",
-      "description": "Namco's acclaimed 3D fighting game featuring a new generation of fighters in the King of Iron Fist Tournament.",
+      "description_en": "Namco's acclaimed 3D fighting game featuring a new generation of fighters in the King of Iron Fist Tournament.",
+      "description_es": "El aclamado juego de lucha 3D de Namco con una nueva generación de luchadores en el Torneo del Rey del Puño de Hierro.",
       "release_year": 1997,
       "genre": "11111111-0000-0000-0000-000000000006",
       "developer": "22222222-0000-0000-0000-000000000012",
       "publisher": "22222222-0000-0000-0000-000000000012",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000012"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000017"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000030",
     "fields": {
-      "name": "The Legend of Zelda: Breath of the Wild",
+      "name_en": "The Legend of Zelda: Breath of the Wild", "name_es": "The Legend of Zelda: Breath of the Wild",
       "slug": "the-legend-of-zelda-breath-of-the-wild",
-      "description": "A revolutionary open-world Zelda that redefines exploration and freedom in gaming, set in a ruined Hyrule.",
+      "description_en": "A revolutionary open-world Zelda that redefines exploration and freedom in gaming, set in a ruined Hyrule.",
+      "description_es": "Un Zelda de mundo abierto revolucionario que redefine la exploración y la libertad en los videojuegos, ambientado en una Hyrule en ruinas.",
       "release_year": 2017,
       "genre": "11111111-0000-0000-0000-000000000002",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": [
-        "33333333-0000-0000-0000-000000000007"
-      ],
-      "active": true,
-      "deleted_at": null,
-      "created_at": "2024-01-01T00:00:00Z",
-      "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": ["33333333-0000-0000-0000-000000000007"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000031",
+    "fields": {
+      "name_en": "Elden Ring", "name_es": "Elden Ring",
+      "slug": "elden-ring",
+      "description_en": "FromSoftware's open-world action RPG co-created with George R.R. Martin, set in the Lands Between.",
+      "description_es": "El RPG de acción de mundo abierto de FromSoftware co-creado con George R.R. Martin, ambientado en las Tierras Intermedias.",
+      "release_year": 2022,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000016",
+      "publisher": "22222222-0000-0000-0000-000000000012",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000029"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000032",
+    "fields": {
+      "name_en": "The Elder Scrolls V: Skyrim", "name_es": "The Elder Scrolls V: Skyrim",
+      "slug": "the-elder-scrolls-v-skyrim",
+      "description_en": "Bethesda's epic open-world RPG where the Dragonborn battles the dragon Alduin to save the world.",
+      "description_es": "El épico RPG de mundo abierto de Bethesda donde el Sangre de Dragón lucha contra el dragón Alduin para salvar el mundo.",
+      "release_year": 2011,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000017",
+      "publisher": "22222222-0000-0000-0000-000000000017",
+      "consoles": ["33333333-0000-0000-0000-000000000019", "33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000026", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000007"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000033",
+    "fields": {
+      "name_en": "Uncharted 4: A Thief's End", "name_es": "Uncharted 4: El Desenlace del Ladrón",
+      "slug": "uncharted-4-a-thiefs-end",
+      "description_en": "Nathan Drake's final adventure in a thrilling treasure hunt across the globe.",
+      "description_es": "La aventura final de Nathan Drake en una emocionante búsqueda del tesoro alrededor del mundo.",
+      "release_year": 2016,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000018",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": ["33333333-0000-0000-0000-000000000020"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000034",
+    "fields": {
+      "name_en": "Marvel's Spider-Man", "name_es": "Marvel's Spider-Man",
+      "slug": "marvels-spider-man",
+      "description_en": "Insomniac Games' acclaimed open-world adventure as Peter Parker's Spider-Man protecting New York City.",
+      "description_es": "La aclamada aventura de mundo abierto de Insomniac Games como Spider-Man de Peter Parker protegiendo Nueva York.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000019",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000035",
+    "fields": {
+      "name_en": "Horizon Zero Dawn", "name_es": "Horizon Zero Dawn",
+      "slug": "horizon-zero-dawn",
+      "description_en": "An open-world action RPG set in a post-apocalyptic world inhabited by robotic creatures, following hunter Aloy.",
+      "description_es": "Un RPG de acción de mundo abierto ambientado en un mundo postapocalíptico habitado por criaturas robóticas, siguiendo a la cazadora Aloy.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000025",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": ["33333333-0000-0000-0000-000000000020"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000036",
+    "fields": {
+      "name_en": "Overwatch", "name_es": "Overwatch",
+      "slug": "overwatch",
+      "description_en": "Blizzard's team-based hero shooter featuring a diverse roster of heroes with unique abilities.",
+      "description_es": "El shooter de héroes por equipos de Blizzard con un elenco diverso de héroes con habilidades únicas.",
+      "release_year": 2016,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000022",
+      "publisher": "22222222-0000-0000-0000-000000000011",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000037",
+    "fields": {
+      "name_en": "Fortnite", "name_es": "Fortnite",
+      "slug": "fortnite",
+      "description_en": "Epic Games' battle royale phenomenon where 100 players fight to be the last one standing.",
+      "description_es": "El fenómeno battle royale de Epic Games donde 100 jugadores luchan para ser el último en pie.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000029", "33333333-0000-0000-0000-000000000007"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000038",
+    "fields": {
+      "name_en": "League of Legends", "name_es": "League of Legends",
+      "slug": "league-of-legends",
+      "description_en": "The world's most popular MOBA where two teams of five champions battle to destroy the enemy Nexus.",
+      "description_es": "El MOBA más popular del mundo donde dos equipos de cinco campeones luchan para destruir el Nexo enemigo.",
+      "release_year": 2009,
+      "genre": "11111111-0000-0000-0000-000000000010",
+      "developer": "22222222-0000-0000-0000-000000000024",
+      "publisher": "22222222-0000-0000-0000-000000000024",
+      "consoles": [],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000039",
+    "fields": {
+      "name_en": "Bloodborne", "name_es": "Bloodborne",
+      "slug": "bloodborne",
+      "description_en": "FromSoftware's gothic horror action RPG set in the crumbling city of Yharnam, exclusive to PlayStation.",
+      "description_es": "El RPG de acción de terror gótico de FromSoftware ambientado en la decadente ciudad de Yharnam, exclusivo de PlayStation.",
+      "release_year": 2015,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000016",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": ["33333333-0000-0000-0000-000000000020"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000040",
+    "fields": {
+      "name_en": "Call of Duty: Modern Warfare", "name_es": "Call of Duty: Modern Warfare",
+      "slug": "call-of-duty-modern-warfare",
+      "description_en": "Activision's gritty reboot of the Modern Warfare series with realistic military combat.",
+      "description_es": "El reinicio crudo de Activision de la serie Modern Warfare con combate militar realista.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000011",
+      "publisher": "22222222-0000-0000-0000-000000000011",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000041",
+    "fields": {
+      "name_en": "Sekiro: Shadows Die Twice", "name_es": "Sekiro: Las Sombras Mueren Dos Veces",
+      "slug": "sekiro-shadows-die-twice",
+      "description_en": "FromSoftware's samurai action game set in late Sengoku-era Japan, following shinobi Wolf.",
+      "description_es": "El juego de acción samurái de FromSoftware ambientado en el Japón del período Sengoku tardío, siguiendo al shinobi Wolf.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000016",
+      "publisher": "22222222-0000-0000-0000-000000000011",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000042",
+    "fields": {
+      "name_en": "NBA 2K23", "name_es": "NBA 2K23",
+      "slug": "nba-2k23",
+      "description_en": "2K's basketball simulation with Michael Jordan's era featured as a special tribute.",
+      "description_es": "La simulación de baloncesto de 2K con la era de Michael Jordan como tributo especial.",
+      "release_year": 2022,
+      "genre": "11111111-0000-0000-0000-000000000008",
+      "developer": "22222222-0000-0000-0000-000000000020",
+      "publisher": "22222222-0000-0000-0000-000000000020",
+      "consoles": ["33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000029", "33333333-0000-0000-0000-000000000007"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000043",
+    "fields": {
+      "name_en": "Destiny 2", "name_es": "Destiny 2",
+      "slug": "destiny-2",
+      "description_en": "Bungie's free-to-play online FPS where Guardians defend humanity from alien threats across the solar system.",
+      "description_es": "El FPS online gratuito de Bungie donde los Guardianes defienden a la humanidad de amenazas alienígenas por el sistema solar.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000021",
+      "publisher": "22222222-0000-0000-0000-000000000021",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000029"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000044",
+    "fields": {
+      "name_en": "The Last of Us Part II", "name_es": "The Last of Us Parte II",
+      "slug": "the-last-of-us-part-ii",
+      "description_en": "Naughty Dog's controversial but critically acclaimed sequel exploring cycles of violence through Ellie's revenge story.",
+      "description_es": "La polémica pero aclamada secuela de Naughty Dog que explora los ciclos de violencia a través de la historia de venganza de Ellie.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000018",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000045",
+    "fields": {
+      "name_en": "Ghost of Tsushima", "name_es": "Ghost of Tsushima",
+      "slug": "ghost-of-tsushima",
+      "description_en": "Sucker Punch's open-world samurai epic set during the Mongol invasion of Tsushima island in 1274.",
+      "description_es": "La épica samurái de mundo abierto de Sucker Punch ambientada durante la invasión mongola de la isla de Tsushima en 1274.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
+      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
     }
   }
 ]

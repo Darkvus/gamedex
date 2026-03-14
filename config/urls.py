@@ -12,5 +12,7 @@ urlpatterns = pyms_urlpatterns + [
     path("api/v1/", include("apps.companies.api.v1.urls")),
     path("api/v1/", include("apps.consoles.api.v1.urls")),
     path("api/v1/", include("apps.games.api.v1.urls")),
+    path("api/v1/", include("apps.regions.api.v1.urls")),
+    path("api/v1/", include("apps.releases.api.v1.urls")),
     prefix_default_language=False,
 )

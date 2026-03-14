@@ -13,5 +13,15 @@
   {"name_en": "Bandai Namco", "name_es": "Bandai Namco", "country": "Japan", "founded": 1955, "website": "https://www.bandainamcoent.com", "active": true},
   {"name_en": "Rockstar Games", "name_es": "Rockstar Games", "country": "United States", "founded": 1998, "website": "https://www.rockstargames.com", "active": true},
   {"name_en": "Valve", "name_es": "Valve", "country": "United States", "founded": 1996, "website": "https://www.valvesoftware.com", "active": true},
-  {"name_en": "CD Projekt", "name_es": "CD Projekt", "country": "Poland", "founded": 1994, "website": "https://www.cdprojekt.com", "active": true}
+  {"name_en": "CD Projekt", "name_es": "CD Projekt", "country": "Poland", "founded": 1994, "website": "https://www.cdprojekt.com", "active": true},
+  {"name_en": "FromSoftware", "name_es": "FromSoftware", "country": "Japan", "founded": 1986, "website": "https://www.fromsoftware.jp", "active": true},
+  {"name_en": "Bethesda Game Studios", "name_es": "Bethesda Game Studios", "country": "United States", "founded": 2001, "website": "https://bethesdagamestudios.com", "active": true},
+  {"name_en": "Naughty Dog", "name_es": "Naughty Dog", "country": "United States", "founded": 1984, "website": "https://www.naughtydog.com", "active": true},
+  {"name_en": "Insomniac Games", "name_es": "Insomniac Games", "country": "United States", "founded": 1994, "website": "https://insomniac.games", "active": true},
+  {"name_en": "2K Games", "name_es": "2K Games", "country": "United States", "founded": 2005, "website": "https://www.2k.com", "active": true},
+  {"name_en": "Bungie", "name_es": "Bungie", "country": "United States", "founded": 1991, "website": "https://www.bungie.net", "active": true},
+  {"name_en": "Blizzard Entertainment", "name_es": "Blizzard Entertainment", "country": "United States", "founded": 1991, "website": "https://www.blizzard.com", "active": true},
+  {"name_en": "Epic Games", "name_es": "Epic Games", "country": "United States", "founded": 1991, "website": "https://www.epicgames.com", "active": true},
+  {"name_en": "Riot Games", "name_es": "Riot Games", "country": "United States", "founded": 2006, "website": "https://www.riotgames.com", "active": true},
+  {"name_en": "Guerrilla Games", "name_es": "Guerrilla Games", "country": "Netherlands", "founded": 2000, "website": "https://www.guerrilla-games.com", "active": true}
 ]

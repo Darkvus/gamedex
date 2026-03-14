@@ -30,6 +30,8 @@ INSTALLED_APPS = [  # type: ignore[name-defined]  # noqa: F405
     "apps.consoles",
     "apps.companies",
     "apps.genres",
+    "apps.regions",
+    "apps.releases",
 ]
 
 LOCAL_APPS: list[tuple[str, str]] = [
@@ -37,6 +39,8 @@ LOCAL_APPS: list[tuple[str, str]] = [
     ("apps.consoles.api.v1.urls", BASE_PATH),
     ("apps.companies.api.v1.urls", BASE_PATH),
     ("apps.genres.api.v1.urls", BASE_PATH),
+    ("apps.regions.api.v1.urls", BASE_PATH),
+    ("apps.releases.api.v1.urls", BASE_PATH),
 ]
 
 MIDDLEWARE = [  # type: ignore[name-defined]  # noqa: F405

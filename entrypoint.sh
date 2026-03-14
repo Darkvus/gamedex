@@ -7,6 +7,7 @@ python manage.py loaddata \
   apps/genres/fixtures/genres.json \
   apps/companies/fixtures/companies.json \
   apps/consoles/fixtures/consoles.json \
-  apps/games/fixtures/games.json
+  apps/games/fixtures/games.json \
+  apps/regions/fixtures/regions.json
 
 exec gunicorn config.wsgi:application --bind 0.0.0.0:8000

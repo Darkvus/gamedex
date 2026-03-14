@@ -1,0 +1,10 @@
+[
+  {"code": "NA", "name_en": "North America", "name_es": "Norteamérica", "active": true},
+  {"code": "EU", "name_en": "Europe", "name_es": "Europa", "active": true},
+  {"code": "JP", "name_en": "Japan", "name_es": "Japón", "active": true},
+  {"code": "AU", "name_en": "Australia", "name_es": "Australia", "active": true},
+  {"code": "BR", "name_en": "Brazil", "name_es": "Brasil", "active": true},
+  {"code": "KR", "name_en": "South Korea", "name_es": "Corea del Sur", "active": true},
+  {"code": "CN", "name_en": "China", "name_es": "China", "active": true},
+  {"code": "WORLD", "name_en": "Worldwide", "name_es": "Mundial", "active": true}
+]
