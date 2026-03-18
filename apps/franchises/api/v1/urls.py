@@ -5,4 +5,11 @@ from __future__ import annotations
 
 from django.urls import URLPattern, path
 
-urlpatterns: list[URLPattern] = []
+from rest_framework.routers import DefaultRouter
+
+from apps.franchises.api.v1.views import FranchiseViewSet
+
+router = DefaultRouter()
+router.register(r"franchises", FranchiseViewSet, basename="franchise")
+
+urlpatterns = router.urls

@@ -80,19 +80,22 @@
                     <!-- Parameters -->
                     <div v-if="ep.params.length">
                       <h4 class="text-xs font-semibold text-gd-muted uppercase tracking-wider mb-2">Parámetros</h4>
-                      <div class="space-y-1.5">
+                      <div class="space-y-2">
                         <div
                           v-for="param in ep.params"
                           :key="param.name"
-                          class="flex items-start gap-3 bg-gd-card rounded-lg px-3 py-2"
+                          class="flex items-center gap-3 bg-gd-card rounded-lg px-3 py-2"
                         >
-                          <div class="flex items-center gap-2 min-w-0">
+                          <div class="flex items-center gap-2 w-48 flex-shrink-0">
                             <code class="text-gd-accent text-xs font-mono">{{ param.name }}</code>
                             <span class="text-xs text-gd-muted font-mono bg-gd-border rounded px-1.5 py-0.5">{{ param.type }}</span>
-                            <span v-if="param.required" class="text-xs text-red-400">requerido</span>
-                            <span v-else class="text-xs text-gd-muted/60">opcional</span>
+                            <span v-if="param.required" class="text-xs text-red-400">req</span>
                           </div>
-                          <span class="text-gd-muted text-xs flex-1 text-right">{{ param.description }}</span>
+                          <input
+                            v-model="paramInputs[ep.path + '.' + param.name]"
+                            :placeholder="param.description"
+                            class="flex-1 bg-gd-bg border border-gd-border rounded px-2 py-1 text-xs text-white font-mono focus:outline-none focus:border-gd-accent/60 placeholder-gd-muted/50"
+                          />
                         </div>
                       </div>
                     </div>
@@ -107,12 +110,20 @@
                       <div class="flex gap-2">
                         <div class="flex-1 flex items-center gap-2 bg-gd-card border border-gd-border rounded-lg px-3 py-2">
                           <span class="text-green-400 text-xs font-mono font-bold">GET</span>
-                          <input
-                            v-model="tryUrls[ep.path]"
-                            class="flex-1 bg-transparent text-sm text-white font-mono focus:outline-none min-w-0"
-                            :placeholder="baseUrl + ep.path"
-                          />
+                          <span class="flex-1 text-sm text-white font-mono truncate">{{ buildUrl(ep) }}</span>
                         </div>
+                        <button
+                          @click="copyUrl(ep)"
+                          class="px-3 py-2 bg-gd-card border border-gd-border hover:border-gd-accent/50 text-gd-muted hover:text-white text-sm rounded-lg transition-colors flex items-center gap-1 flex-shrink-0"
+                          :title="copied[ep.path] ? 'Copiado!' : 'Copiar URL'"
+                        >
+                          <svg v-if="!copied[ep.path]" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                          </svg>
+                          <svg v-else class="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </button>
                         <button
                           @click="executeRequest(ep)"
                           :disabled="loading[ep.path]"
@@ -130,16 +141,30 @@
                     <div v-if="responses[ep.path] !== undefined">
                       <div class="flex items-center justify-between mb-2">
                         <h4 class="text-xs font-semibold text-gd-muted uppercase tracking-wider">Respuesta</h4>
-                        <span
-                          class="text-xs font-bold rounded px-2 py-0.5"
-                          :class="responses[ep.path].status < 400
-                            ? 'bg-green-900/50 text-green-400'
-                            : 'bg-red-900/50 text-red-400'"
-                        >
-                          {{ responses[ep.path].status }}
-                        </span>
+                        <div class="flex items-center gap-2">
+                          <span class="text-xs text-gd-muted font-mono" v-if="responseTimes[ep.path]">
+                            {{ responseTimes[ep.path] }}ms
+                          </span>
+                          <span
+                            class="text-xs font-bold rounded px-2 py-0.5"
+                            :class="responses[ep.path].status < 400
+                              ? 'bg-green-900/50 text-green-400'
+                              : 'bg-red-900/50 text-red-400'"
+                          >
+                            {{ responses[ep.path].status }}
+                          </span>
+                          <button
+                            @click="copyResponse(ep.path)"
+                            class="text-xs text-gd-muted hover:text-white transition-colors"
+                            title="Copiar respuesta"
+                          >
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                          </button>
+                        </div>
                       </div>
-                      <pre class="bg-gd-bg border border-gd-border rounded-lg p-3 text-xs text-green-300 font-mono overflow-auto max-h-64 leading-relaxed">{{ responses[ep.path].body }}</pre>
+                      <pre class="bg-gd-bg border border-gd-border rounded-lg p-3 text-xs text-green-300 font-mono overflow-auto max-h-80 leading-relaxed">{{ responses[ep.path].body }}</pre>
                     </div>
 
                     <!-- Example response -->
@@ -169,7 +194,9 @@ const activeGroup = ref(props.endpoints[0]?.group || 'all')
 const expanded = ref(new Set())
 const loading = reactive({})
 const responses = reactive({})
-const tryUrls = reactive({})
+const responseTimes = reactive({})
+const paramInputs = reactive({})
+const copied = reactive({})
 
 const baseUrl = computed(() => window.location.origin)
 
@@ -181,14 +208,29 @@ function toggleEndpoint(path) {
   }
 }
 
+function buildUrl(ep) {
+  let path = ep.path.replace(/{.*?}/g, '')
+  const queryParams = []
+  for (const param of ep.params) {
+    const val = paramInputs[ep.path + '.' + param.name]
+    if (val) {
+      queryParams.push(`${encodeURIComponent(param.name)}=${encodeURIComponent(val)}`)
+    }
+  }
+  const query = queryParams.length ? '?' + queryParams.join('&') : ''
+  return baseUrl.value + path + query
+}
+
 async function executeRequest(ep) {
-  const url = tryUrls[ep.path] || (window.location.origin + ep.path.replace(/{.*?}/g, ''))
+  const url = buildUrl(ep)
   loading[ep.path] = true
   responses[ep.path] = undefined
+  const start = performance.now()
   try {
     const res = await fetch(url, {
       headers: { 'Accept': 'application/json' },
     })
+    const elapsed = Math.round(performance.now() - start)
     const text = await res.text()
     let body
     try {
@@ -197,10 +239,23 @@ async function executeRequest(ep) {
       body = text
     }
     responses[ep.path] = { status: res.status, body }
+    responseTimes[ep.path] = elapsed
   } catch (err) {
     responses[ep.path] = { status: 0, body: `Error: ${err.message}` }
   } finally {
     loading[ep.path] = false
+  }
+}
+
+async function copyUrl(ep) {
+  await navigator.clipboard.writeText(buildUrl(ep))
+  copied[ep.path] = true
+  setTimeout(() => { copied[ep.path] = false }, 1500)
+}
+
+async function copyResponse(path) {
+  if (responses[path]) {
+    await navigator.clipboard.writeText(responses[path].body)
   }
 }
 

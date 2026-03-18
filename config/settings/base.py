@@ -36,6 +36,7 @@ INSTALLED_APPS = [  # type: ignore[name-defined]  # noqa: F405
     "apps.genres",
     "apps.regions",
     "apps.releases",
+    "apps.franchises",
     "inertia",
     "django_vite",
     "apps.web",

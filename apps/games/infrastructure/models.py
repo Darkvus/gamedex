@@ -37,6 +37,13 @@ class Games(BaseModel):
         related_name="published_games",
     )
     cover_url = models.URLField(max_length=500, blank=True, default="")
+    franchise = models.ForeignKey(
+        "franchises.Franchises",
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name="games",
+    )
     consoles = models.ManyToManyField(
         "consoles.Consoles",
         blank=True,
