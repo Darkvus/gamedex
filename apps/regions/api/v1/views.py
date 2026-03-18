@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 from rest_framework.filters import OrderingFilter, SearchFilter
 from rest_framework.viewsets import ReadOnlyModelViewSet
 

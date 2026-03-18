@@ -1,6 +1,7 @@
 """
-    DTOs for consoles application services.
+DTOs for consoles application services.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

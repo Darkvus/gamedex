@@ -1,6 +1,7 @@
 """
-    Serializers for franchises API v1.
+Serializers for franchises API v1.
 """
+
 from __future__ import annotations
 
 from rest_framework import serializers
@@ -13,7 +14,18 @@ class FranchiseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Franchises
-        fields = ("id", "name", "name_en", "name_es", "slug", "description", "description_en", "description_es", "founded_year", "games_count")
+        fields = (
+            "id",
+            "name",
+            "name_en",
+            "name_es",
+            "slug",
+            "description",
+            "description_en",
+            "description_es",
+            "founded_year",
+            "games_count",
+        )
 
     def get_games_count(self, obj: Franchises) -> int:
         return obj.games.count()

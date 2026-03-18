@@ -1,6 +1,7 @@
 """
-    AppConfig for genres.
+AppConfig for genres.
 """
+
 from __future__ import annotations
 
 from django.apps import AppConfig
@@ -13,4 +14,5 @@ class GenresConfig(AppConfig):
 
     def import_models(self) -> None:
         import apps.genres.infrastructure.models  # noqa: F401
+
         super().import_models()

@@ -1,6 +1,7 @@
 """
-    Repository interfaces for regions domain.
+Repository interfaces for regions domain.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod

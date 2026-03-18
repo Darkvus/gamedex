@@ -1,6 +1,7 @@
 """
-    Repository implementation for releases.
+Repository implementation for releases.
 """
+
 from __future__ import annotations
 
 from apps.releases.domain.entities import ReleaseEntity

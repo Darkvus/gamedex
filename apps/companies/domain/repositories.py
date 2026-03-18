@@ -1,6 +1,7 @@
 """
-    Repository interfaces for companies domain.
+Repository interfaces for companies domain.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
@@ -12,21 +13,16 @@ class AbstractCompanyRepository(ABC):
     """Abstract repository for companies."""
 
     @abstractmethod
-    def list_all(self) -> list[CompanyEntity]:
-        ...
+    def list_all(self) -> list[CompanyEntity]: ...
 
     @abstractmethod
-    def get_by_id(self, id: int) -> CompanyEntity | None:
-        ...
+    def get_by_id(self, id: int) -> CompanyEntity | None: ...
 
     @abstractmethod
-    def create(self, entity: CompanyEntity) -> CompanyEntity:
-        ...
+    def create(self, entity: CompanyEntity) -> CompanyEntity: ...
 
     @abstractmethod
-    def update(self, entity: CompanyEntity) -> CompanyEntity:
-        ...
+    def update(self, entity: CompanyEntity) -> CompanyEntity: ...
 
     @abstractmethod
-    def delete(self, id: int) -> None:
-        ...
+    def delete(self, id: int) -> None: ...

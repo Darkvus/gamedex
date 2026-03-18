@@ -1,6 +1,7 @@
 """
-    Repository interfaces for genres domain.
+Repository interfaces for genres domain.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
@@ -12,21 +13,16 @@ class AbstractGenreRepository(ABC):
     """Abstract repository for genres."""
 
     @abstractmethod
-    def list_all(self) -> list[GenreEntity]:
-        ...
+    def list_all(self) -> list[GenreEntity]: ...
 
     @abstractmethod
-    def get_by_id(self, id: int) -> GenreEntity | None:
-        ...
+    def get_by_id(self, id: int) -> GenreEntity | None: ...
 
     @abstractmethod
-    def create(self, entity: GenreEntity) -> GenreEntity:
-        ...
+    def create(self, entity: GenreEntity) -> GenreEntity: ...
 
     @abstractmethod
-    def update(self, entity: GenreEntity) -> GenreEntity:
-        ...
+    def update(self, entity: GenreEntity) -> GenreEntity: ...
 
     @abstractmethod
-    def delete(self, id: int) -> None:
-        ...
+    def delete(self, id: int) -> None: ...

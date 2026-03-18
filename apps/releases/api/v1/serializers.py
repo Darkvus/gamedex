@@ -1,6 +1,9 @@
 from __future__ import annotations
+
 from rest_framework import serializers
+
 from apps.releases.infrastructure.models import Releases
+
 
 class ReleaseSerializer(serializers.ModelSerializer):
     game_name = serializers.CharField(source="game.name", read_only=True)
@@ -10,4 +13,14 @@ class ReleaseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Releases
-        fields = ("id", "game", "game_name", "region", "region_code", "region_name", "console", "console_name", "release_date")
+        fields = (
+            "id",
+            "game",
+            "game_name",
+            "region",
+            "region_code",
+            "region_name",
+            "console",
+            "console_name",
+            "release_date",
+        )

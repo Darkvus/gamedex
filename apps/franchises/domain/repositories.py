@@ -1,6 +1,7 @@
 """
-    Repository interfaces for franchises domain.
+Repository interfaces for franchises domain.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod

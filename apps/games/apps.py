@@ -1,6 +1,7 @@
 """
-    AppConfig for games.
+AppConfig for games.
 """
+
 from __future__ import annotations
 
 from django.apps import AppConfig
@@ -13,4 +14,5 @@ class GamesConfig(AppConfig):
 
     def import_models(self) -> None:
         import apps.games.infrastructure.models  # noqa: F401
+
         super().import_models()

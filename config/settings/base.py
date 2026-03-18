@@ -1,7 +1,8 @@
 """
-    Base settings for gamedex.
-    Used for deployment. Set DJANGO_SETTINGS_MODULE=config.settings.base
+Base settings for gamedex.
+Used for deployment. Set DJANGO_SETTINGS_MODULE=config.settings.base
 """
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -29,7 +30,7 @@ MODELTRANSLATION_FALLBACK_LANGUAGES = ("en",)
 INSTALLED_APPS = [  # type: ignore[name-defined]  # noqa: F405
     "modeltranslation",
     "django.contrib.admin",
-    *INSTALLED_APPS,
+    *INSTALLED_APPS,  # noqa: F405
     "apps.games",
     "apps.consoles",
     "apps.companies",
@@ -52,7 +53,7 @@ LOCAL_APPS: list[tuple[str, str]] = [
 ]
 
 MIDDLEWARE = [  # type: ignore[name-defined]  # noqa: F405
-    *MIDDLEWARE,
+    *MIDDLEWARE,  # noqa: F405
     "django.middleware.locale.LocaleMiddleware",
     "inertia.middleware.InertiaMiddleware",
 ]
@@ -70,7 +71,7 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
             ],
         },
-    }
+    },
 ]
 
 INERTIA_LAYOUT = "base.html"
@@ -79,7 +80,7 @@ DJANGO_VITE = {
     "default": {
         "dev_mode": True,
         "dev_server_port": 5173,
-    }
+    },
 }
 
 STATIC_URL = "/static/"

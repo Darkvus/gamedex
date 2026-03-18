@@ -1,6 +1,7 @@
 """
-    Entities for franchises domain.
+Entities for franchises domain.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

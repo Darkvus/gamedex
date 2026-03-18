@@ -1,6 +1,7 @@
 """
-    Use case for companies.
+Use case for companies.
 """
+
 from __future__ import annotations
 
 from apps.companies.application.services.companies_service import CompanyService

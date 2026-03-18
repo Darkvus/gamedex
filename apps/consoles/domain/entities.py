@@ -1,6 +1,7 @@
 """
-    Entities for consoles domain.
+Entities for consoles domain.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

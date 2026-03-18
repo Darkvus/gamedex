@@ -1,6 +1,7 @@
 """
-    Django ORM repository implementation for games.
+Django ORM repository implementation for games.
 """
+
 from __future__ import annotations
 
 from apps.games.domain.entities import GameEntity

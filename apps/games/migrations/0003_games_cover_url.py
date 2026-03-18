@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('games', '0002_games_description_en_games_description_es_and_more'),
+        ("games", "0002_games_description_en_games_description_es_and_more"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='games',
-            name='cover_url',
-            field=models.URLField(blank=True, default='', max_length=500),
+            model_name="games",
+            name="cover_url",
+            field=models.URLField(blank=True, default="", max_length=500),
         ),
     ]

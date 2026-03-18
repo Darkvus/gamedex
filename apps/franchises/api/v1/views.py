@@ -1,6 +1,7 @@
 """
-    Views for franchises API v1.
+Views for franchises API v1.
 """
+
 from __future__ import annotations
 
 from rest_framework.filters import OrderingFilter, SearchFilter

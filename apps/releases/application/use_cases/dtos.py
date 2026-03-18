@@ -1,4 +1,5 @@
 """
-    DTOs for releases use cases.
+DTOs for releases use cases.
 """
+
 from __future__ import annotations

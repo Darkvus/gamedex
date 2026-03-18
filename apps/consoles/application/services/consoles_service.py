@@ -1,6 +1,7 @@
 """
-    Service for consoles.
+Service for consoles.
 """
+
 from __future__ import annotations
 
 from apps.consoles.application.services.dtos import ConsoleServiceDTO

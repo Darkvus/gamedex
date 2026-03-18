@@ -1,6 +1,7 @@
 """
-    DTOs for franchises application services.
+DTOs for franchises application services.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

@@ -4,30 +4,29 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('genres', '0001_initial'),
+        ("genres", "0001_initial"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='genres',
-            name='description_en',
-            field=models.TextField(blank=True, default='', null=True),
+            model_name="genres",
+            name="description_en",
+            field=models.TextField(blank=True, default="", null=True),
         ),
         migrations.AddField(
-            model_name='genres',
-            name='description_es',
-            field=models.TextField(blank=True, default='', null=True),
+            model_name="genres",
+            name="description_es",
+            field=models.TextField(blank=True, default="", null=True),
         ),
         migrations.AddField(
-            model_name='genres',
-            name='name_en',
+            model_name="genres",
+            name="name_en",
             field=models.CharField(max_length=100, null=True, unique=True),
         ),
         migrations.AddField(
-            model_name='genres',
-            name='name_es',
+            model_name="genres",
+            name="name_es",
             field=models.CharField(max_length=100, null=True, unique=True),
         ),
     ]

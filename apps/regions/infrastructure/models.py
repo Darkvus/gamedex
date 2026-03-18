@@ -1,9 +1,12 @@
 from __future__ import annotations
+
 from django.db import models
 from pyms_django.models import BaseModel
 
+
 class Regions(BaseModel):
     """Regions model."""
+
     code = models.CharField(max_length=10, unique=True)
     name = models.CharField(max_length=100)
 

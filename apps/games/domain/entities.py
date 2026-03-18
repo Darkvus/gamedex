@@ -1,6 +1,7 @@
 """
-    Entities for games domain.
+Entities for games domain.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

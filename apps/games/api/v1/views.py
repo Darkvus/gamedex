@@ -1,6 +1,7 @@
 """
-    Views for games API v1.
+Views for games API v1.
 """
+
 from __future__ import annotations
 
 from rest_framework.filters import OrderingFilter, SearchFilter
@@ -14,9 +15,7 @@ class GameViewSet(ReadOnlyModelViewSet):
     """ViewSet for games read-only operations."""
 
     queryset = (
-        Games.objects.select_related("genre", "developer", "publisher", "franchise")
-        .prefetch_related("consoles")
-        .all()
+        Games.objects.select_related("genre", "developer", "publisher", "franchise").prefetch_related("consoles").all()
     )
     serializer_class = GameSerializer
     filter_backends = [SearchFilter, OrderingFilter]

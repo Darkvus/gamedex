@@ -1,6 +1,7 @@
 """
-    Django ORM repository implementation for consoles.
+Django ORM repository implementation for consoles.
 """
+
 from __future__ import annotations
 
 from apps.consoles.domain.entities import ConsoleEntity

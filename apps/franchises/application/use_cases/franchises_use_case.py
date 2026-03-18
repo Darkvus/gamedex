@@ -1,6 +1,7 @@
 """
-    Use case for franchises.
+Use case for franchises.
 """
+
 from __future__ import annotations
 
 from apps.franchises.application.services.dtos import FranchiseServiceDTO

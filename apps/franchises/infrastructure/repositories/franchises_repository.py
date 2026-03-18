@@ -1,6 +1,7 @@
 """
-    Repository implementation for franchises.
+Repository implementation for franchises.
 """
+
 from __future__ import annotations
 
 from apps.franchises.domain.entities import FranchiseEntity

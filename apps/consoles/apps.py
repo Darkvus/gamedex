@@ -1,6 +1,7 @@
 """
-    AppConfig for consoles.
+AppConfig for consoles.
 """
+
 from __future__ import annotations
 
 from django.apps import AppConfig
@@ -13,4 +14,5 @@ class ConsolesConfig(AppConfig):
 
     def import_models(self) -> None:
         import apps.consoles.infrastructure.models  # noqa: F401
+
         super().import_models()

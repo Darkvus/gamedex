@@ -1,6 +1,7 @@
 """
-    Repository interfaces for games domain.
+Repository interfaces for games domain.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
@@ -12,21 +13,16 @@ class AbstractGameRepository(ABC):
     """Abstract repository for games."""
 
     @abstractmethod
-    def list_all(self) -> list[GameEntity]:
-        ...
+    def list_all(self) -> list[GameEntity]: ...
 
     @abstractmethod
-    def get_by_id(self, id: int) -> GameEntity | None:
-        ...
+    def get_by_id(self, id: int) -> GameEntity | None: ...
 
     @abstractmethod
-    def create(self, entity: GameEntity) -> GameEntity:
-        ...
+    def create(self, entity: GameEntity) -> GameEntity: ...
 
     @abstractmethod
-    def update(self, entity: GameEntity) -> GameEntity:
-        ...
+    def update(self, entity: GameEntity) -> GameEntity: ...
 
     @abstractmethod
-    def delete(self, id: int) -> None:
-        ...
+    def delete(self, id: int) -> None: ...

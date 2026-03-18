@@ -3,3 +3,24 @@ line-length = 120
 
 [lint]
 select = ["E", "F", "W", "I", "N", "UP", "ANN", "B", "A", "COM", "C4", "PT", "RET", "SIM", "TCH", "ARG", "PTH", "ERA"]
+ignore = [
+    "ANN001",  # missing type annotation for function argument
+    "ANN002",  # missing type annotation for *args
+    "ANN003",  # missing type annotation for **kwargs
+    "ANN101",  # missing type annotation for self
+    "ANN201",  # missing return type annotation for public function
+    "ANN202",  # missing return type annotation for private function
+    "ANN204",  # missing return type annotation for special method
+    "A002",    # argument shadowing builtin (id is common in Django)
+    "TC001",   # move application import into type-checking block
+    "TC002",   # move third-party import into type-checking block
+    "TC003",   # move stdlib import into type-checking block
+    "ARG001",  # unused function argument (common in Django admin actions)
+    "ARG002",  # unused method argument
+    "PTH",     # pathlib rules (pre-existing code uses os.path)
+    "E501",    # line too long in auto-generated migrations
+]
+
+[lint.per-file-ignores]
+"*/migrations/*" = ["E501", "I001", "N806", "N999"]
+"tests/*" = ["ANN", "ARG"]

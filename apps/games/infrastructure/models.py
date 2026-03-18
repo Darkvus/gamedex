@@ -1,6 +1,7 @@
 """
-    Django ORM models for games.
+Django ORM models for games.
 """
+
 from __future__ import annotations
 
 from django.db import models

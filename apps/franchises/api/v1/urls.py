@@ -1,9 +1,8 @@
 """
-    URL configuration for franchises API v1.
+URL configuration for franchises API v1.
 """
-from __future__ import annotations
 
-from django.urls import URLPattern, path
+from __future__ import annotations
 
 from rest_framework.routers import DefaultRouter
 

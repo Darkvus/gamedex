@@ -28,11 +28,7 @@ def catalog(request):
     year = request.GET.get("year", "")
     search = request.GET.get("search", "")
 
-    qs = (
-        Games.objects.select_related("genre", "developer", "publisher")
-        .prefetch_related("consoles")
-        .all()
-    )
+    qs = Games.objects.select_related("genre", "developer", "publisher").prefetch_related("consoles").all()
     if genre_id:
         qs = qs.filter(genre_id=genre_id)
     if console_id:
@@ -49,32 +45,32 @@ def catalog(request):
         .order_by("-release_year")
     )
 
-    return render(request, "Catalog", props={
-        "games": [_serialize_game(g) for g in qs],
-        "genres": [{"id": str(g.id), "name": g.name} for g in Genres.objects.all()],
-        "consoles": [{"id": str(c.id), "name": c.name} for c in Consoles.objects.order_by("name")],
-        "years": list(years),
-        "filters": {"genre": genre_id, "console": console_id, "year": year, "search": search},
-    })
+    return render(
+        request,
+        "Catalog",
+        props={
+            "games": [_serialize_game(g) for g in qs],
+            "genres": [{"id": str(g.id), "name": g.name} for g in Genres.objects.all()],
+            "consoles": [{"id": str(c.id), "name": c.name} for c in Consoles.objects.order_by("name")],
+            "years": list(years),
+            "filters": {"genre": genre_id, "console": console_id, "year": year, "search": search},
+        },
+    )
 
 
 def collection(request):
-    qs = (
-        Games.objects.select_related("genre", "developer", "publisher")
-        .prefetch_related("consoles")
-        .all()
+    qs = Games.objects.select_related("genre", "developer", "publisher").prefetch_related("consoles").all()
+    return render(
+        request,
+        "Collection",
+        props={
+            "games": [_serialize_game(g) for g in qs],
+        },
     )
-    return render(request, "Collection", props={
-        "games": [_serialize_game(g) for g in qs],
-    })
 
 
 def game_detail(request, slug: str):
-    game = (
-        Games.objects.select_related("genre", "developer", "publisher")
-        .prefetch_related("consoles")
-        .get(slug=slug)
-    )
+    game = Games.objects.select_related("genre", "developer", "publisher").prefetch_related("consoles").get(slug=slug)
     data = _serialize_game(game)
     data["releases"] = [
         {
@@ -99,16 +95,46 @@ def api_explorer(request):
                     "path": "/api/v1/games/",
                     "description": "Returns a paginated list of all games in the catalog.",
                     "params": [
-                        {"name": "page", "type": "integer", "required": False, "description": "Page number (default: 1)"},
+                        {
+                            "name": "page",
+                            "type": "integer",
+                            "required": False,
+                            "description": "Page number (default: 1)",
+                        },
                         {"name": "page_size", "type": "integer", "required": False, "description": "Results per page"},
-                        {"name": "search", "type": "string", "required": False, "description": "Search by name or description"},
+                        {
+                            "name": "search",
+                            "type": "string",
+                            "required": False,
+                            "description": "Search by name or description",
+                        },
                         {"name": "genre", "type": "uuid", "required": False, "description": "Filter by genre ID"},
                         {"name": "console", "type": "uuid", "required": False, "description": "Filter by console ID"},
                         {"name": "year", "type": "integer", "required": False, "description": "Filter by release year"},
-                        {"name": "franchise", "type": "uuid", "required": False, "description": "Filter by franchise ID"},
-                        {"name": "developer", "type": "uuid", "required": False, "description": "Filter by developer ID"},
-                        {"name": "publisher", "type": "uuid", "required": False, "description": "Filter by publisher ID"},
-                        {"name": "ordering", "type": "string", "required": False, "description": "Sort by: name, release_year, -name, -release_year"},
+                        {
+                            "name": "franchise",
+                            "type": "uuid",
+                            "required": False,
+                            "description": "Filter by franchise ID",
+                        },
+                        {
+                            "name": "developer",
+                            "type": "uuid",
+                            "required": False,
+                            "description": "Filter by developer ID",
+                        },
+                        {
+                            "name": "publisher",
+                            "type": "uuid",
+                            "required": False,
+                            "description": "Filter by publisher ID",
+                        },
+                        {
+                            "name": "ordering",
+                            "type": "string",
+                            "required": False,
+                            "description": "Sort by: name, release_year, -name, -release_year",
+                        },
                     ],
                     "example_response": '{"count":150,"next":"/api/v1/games/?page=2","results":[{"id":"...","name":"Super Mario Bros","slug":"super-mario-bros","release_year":1985,"genre":"...","developer":"..."}]}',
                 },
@@ -198,7 +224,12 @@ def api_explorer(request):
                     "path": "/api/v1/regions/",
                     "description": "Returns the list of release regions.",
                     "params": [
-                        {"name": "search", "type": "string", "required": False, "description": "Search by code or name"},
+                        {
+                            "name": "search",
+                            "type": "string",
+                            "required": False,
+                            "description": "Search by code or name",
+                        },
                         {"name": "ordering", "type": "string", "required": False, "description": "Sort by: code, name"},
                     ],
                     "example_response": '[{"id":"77777777-...","code":"NA","name":"North America"},{"id":"77777777-...","code":"EU","name":"Europe"}]',
@@ -226,8 +257,18 @@ def api_explorer(request):
                         {"name": "game", "type": "uuid", "required": False, "description": "Filter by game ID"},
                         {"name": "region", "type": "uuid", "required": False, "description": "Filter by region ID"},
                         {"name": "console", "type": "uuid", "required": False, "description": "Filter by console ID"},
-                        {"name": "search", "type": "string", "required": False, "description": "Search by game name or region"},
-                        {"name": "ordering", "type": "string", "required": False, "description": "Sort by: release_date, game__name"},
+                        {
+                            "name": "search",
+                            "type": "string",
+                            "required": False,
+                            "description": "Search by game name or region",
+                        },
+                        {
+                            "name": "ordering",
+                            "type": "string",
+                            "required": False,
+                            "description": "Sort by: release_date, game__name",
+                        },
                     ],
                     "example_response": '[{"id":"55555555-...","game":"44444444-...","game_name":"Super Mario Bros","region_code":"JP","console_name":"NES","release_date":"1983-07-14"}]',
                 },
@@ -251,8 +292,18 @@ def api_explorer(request):
                     "path": "/api/v1/franchises/",
                     "description": "Returns the list of all game franchises/series.",
                     "params": [
-                        {"name": "search", "type": "string", "required": False, "description": "Search by name or description"},
-                        {"name": "ordering", "type": "string", "required": False, "description": "Sort by: name, founded_year"},
+                        {
+                            "name": "search",
+                            "type": "string",
+                            "required": False,
+                            "description": "Search by name or description",
+                        },
+                        {
+                            "name": "ordering",
+                            "type": "string",
+                            "required": False,
+                            "description": "Sort by: name, founded_year",
+                        },
                     ],
                     "example_response": '[{"id":"66666666-...","name":"Super Mario","slug":"super-mario","founded_year":1985,"games_count":15}]',
                 },

@@ -1,6 +1,7 @@
 """
-    Repository implementation for regions.
+Repository implementation for regions.
 """
+
 from __future__ import annotations
 
 from apps.regions.domain.entities import RegionEntity

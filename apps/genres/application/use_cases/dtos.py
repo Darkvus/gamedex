@@ -1,6 +1,7 @@
 """
-    DTOs for genres use cases.
+DTOs for genres use cases.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

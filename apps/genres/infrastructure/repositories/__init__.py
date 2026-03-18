@@ -1,6 +1,7 @@
 """
-    Django ORM repository implementation for genres.
+Django ORM repository implementation for genres.
 """
+
 from __future__ import annotations
 
 from apps.genres.domain.entities import GenreEntity
@@ -29,7 +30,8 @@ class DjangoGenreRepository(AbstractGenreRepository):
 
     def update(self, entity: GenreEntity) -> GenreEntity:
         Genres.objects.filter(pk=entity.id).update(
-            name=entity.name, description=entity.description
+            name=entity.name,
+            description=entity.description,
         )
         return self._to_entity(Genres.objects.get(pk=entity.id))
 

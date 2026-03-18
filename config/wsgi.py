@@ -1,6 +1,7 @@
 """
-    WSGI config.
+WSGI config.
 """
+
 from __future__ import annotations
 
 import os

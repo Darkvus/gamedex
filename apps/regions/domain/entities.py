@@ -1,6 +1,7 @@
 """
-    Entities for regions domain.
+Entities for regions domain.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

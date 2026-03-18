@@ -1,6 +1,7 @@
 """
-    Django ORM models for companies.
+Django ORM models for companies.
 """
+
 from __future__ import annotations
 
 from django.db import models

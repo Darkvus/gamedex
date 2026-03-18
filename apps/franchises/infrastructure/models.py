@@ -1,6 +1,7 @@
 """
-    Django ORM models for franchises.
+Django ORM models for franchises.
 """
+
 from __future__ import annotations
 
 from django.db import models

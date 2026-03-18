@@ -1,6 +1,7 @@
 """
-    AppConfig for franchises.
+AppConfig for franchises.
 """
+
 from __future__ import annotations
 
 from django.apps import AppConfig

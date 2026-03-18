@@ -1,6 +1,7 @@
 """
-    Django ORM repository implementation for companies.
+Django ORM repository implementation for companies.
 """
+
 from __future__ import annotations
 
 from apps.companies.domain.entities import CompanyEntity

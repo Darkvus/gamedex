@@ -1,6 +1,7 @@
 """
-    Service for franchises.
+Service for franchises.
 """
+
 from __future__ import annotations
 
 from apps.franchises.application.services.dtos import FranchiseServiceDTO

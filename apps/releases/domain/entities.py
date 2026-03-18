@@ -1,6 +1,7 @@
 """
-    Entities for releases domain.
+Entities for releases domain.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

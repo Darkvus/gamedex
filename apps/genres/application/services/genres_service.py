@@ -1,6 +1,7 @@
 """
-    Service for genres.
+Service for genres.
 """
+
 from __future__ import annotations
 
 from apps.genres.application.services.dtos import GenreServiceDTO

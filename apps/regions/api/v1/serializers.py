@@ -1,6 +1,9 @@
 from __future__ import annotations
+
 from rest_framework import serializers
+
 from apps.regions.infrastructure.models import Regions
+
 
 class RegionSerializer(serializers.ModelSerializer):
     class Meta:

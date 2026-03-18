@@ -1,6 +1,7 @@
 """
-    Entities for companies domain.
+Entities for companies domain.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

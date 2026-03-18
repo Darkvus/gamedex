@@ -1,4 +1,5 @@
 """
-    Use case for releases.
+Use case for releases.
 """
+
 from __future__ import annotations

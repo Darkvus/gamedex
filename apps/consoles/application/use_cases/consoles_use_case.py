@@ -1,6 +1,7 @@
 """
-    Use case for consoles.
+Use case for consoles.
 """
+
 from __future__ import annotations
 
 from apps.consoles.application.services.consoles_service import ConsoleService

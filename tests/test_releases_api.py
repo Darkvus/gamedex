@@ -1,6 +1,7 @@
 """
-    Tests for releases API v1.
+Tests for releases API v1.
 """
+
 from __future__ import annotations
 
 import pytest

@@ -1,6 +1,7 @@
 """
-    Use case for games.
+Use case for games.
 """
+
 from __future__ import annotations
 
 from apps.games.application.services.dtos import GameServiceDTO

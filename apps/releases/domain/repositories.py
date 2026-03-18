@@ -1,6 +1,7 @@
 """
-    Repository interfaces for releases domain.
+Repository interfaces for releases domain.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod

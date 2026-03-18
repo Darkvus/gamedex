@@ -1,6 +1,7 @@
 """
-    DTOs for games application services.
+DTOs for games application services.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

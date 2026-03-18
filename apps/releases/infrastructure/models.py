@@ -1,9 +1,12 @@
 from __future__ import annotations
+
 from django.db import models
 from pyms_django.models import BaseModel
 
+
 class Releases(BaseModel):
     """Release model — tracks a game's release in a specific region."""
+
     game = models.ForeignKey(
         "games.Games",
         on_delete=models.CASCADE,

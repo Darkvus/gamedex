@@ -1,6 +1,7 @@
 """
-    Repository interfaces for consoles domain.
+Repository interfaces for consoles domain.
 """
+
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
@@ -12,21 +13,16 @@ class AbstractConsoleRepository(ABC):
     """Abstract repository for consoles."""
 
     @abstractmethod
-    def list_all(self) -> list[ConsoleEntity]:
-        ...
+    def list_all(self) -> list[ConsoleEntity]: ...
 
     @abstractmethod
-    def get_by_id(self, id: int) -> ConsoleEntity | None:
-        ...
+    def get_by_id(self, id: int) -> ConsoleEntity | None: ...
 
     @abstractmethod
-    def create(self, entity: ConsoleEntity) -> ConsoleEntity:
-        ...
+    def create(self, entity: ConsoleEntity) -> ConsoleEntity: ...
 
     @abstractmethod
-    def update(self, entity: ConsoleEntity) -> ConsoleEntity:
-        ...
+    def update(self, entity: ConsoleEntity) -> ConsoleEntity: ...
 
     @abstractmethod
-    def delete(self, id: int) -> None:
-        ...
+    def delete(self, id: int) -> None: ...

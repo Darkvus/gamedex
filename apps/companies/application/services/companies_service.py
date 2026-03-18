@@ -1,6 +1,7 @@
 """
-    Service for companies.
+Service for companies.
 """
+
 from __future__ import annotations
 
 from apps.companies.application.services.dtos import CompanyServiceDTO

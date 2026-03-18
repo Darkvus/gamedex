@@ -1,6 +1,7 @@
 """
-    Django ORM models for consoles.
+Django ORM models for consoles.
 """
+
 from __future__ import annotations
 
 from django.db import models

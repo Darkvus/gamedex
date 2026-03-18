@@ -1,6 +1,7 @@
 """
-    Django ORM models for genres.
+Django ORM models for genres.
 """
+
 from __future__ import annotations
 
 from django.db import models

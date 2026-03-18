@@ -1,6 +1,7 @@
 """
-    Tests for companies API v1.
+Tests for companies API v1.
 """
+
 from __future__ import annotations
 
 import pytest

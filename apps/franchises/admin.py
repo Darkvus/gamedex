@@ -13,4 +13,5 @@ class FranchisesAdmin(admin.ModelAdmin):
 
     def games_count(self, obj: Franchises) -> int:
         return obj.games.count()
+
     games_count.short_description = "Games"
