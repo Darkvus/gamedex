@@ -17,6 +17,7 @@ ignore = [
     "TC003",   # move stdlib import into type-checking block
     "ARG001",  # unused function argument (common in Django admin actions)
     "ARG002",  # unused method argument
+    "COM812",  # trailing comma missing (conflicts with ruff formatter)
     "PTH",     # pathlib rules (pre-existing code uses os.path)
     "E501",    # line too long in auto-generated migrations
 ]

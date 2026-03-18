@@ -20,7 +20,9 @@ class ReleaseResource(resources.ModelResource):
     game = fields.Field(column_name="game", attribute="game", widget=ForeignKeyWidget(Games, field="name_en"))
     region = fields.Field(column_name="region", attribute="region", widget=ForeignKeyWidget(Regions, field="code"))
     console = fields.Field(
-        column_name="console", attribute="console", widget=ForeignKeyWidget(Consoles, field="name_en")
+        column_name="console",
+        attribute="console",
+        widget=ForeignKeyWidget(Consoles, field="name_en"),
     )
 
     class Meta:

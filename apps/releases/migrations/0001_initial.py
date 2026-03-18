@@ -38,13 +38,17 @@ class Migration(migrations.Migration):
                 (
                     "game",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, related_name="releases", to="games.games"
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="releases",
+                        to="games.games",
                     ),
                 ),
                 (
                     "region",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, related_name="releases", to="regions.regions"
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="releases",
+                        to="regions.regions",
                     ),
                 ),
             ],
