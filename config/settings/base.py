@@ -4,8 +4,12 @@
 """
 from __future__ import annotations
 
+from pathlib import Path
+
 from django.utils.translation import gettext_lazy as _
 from pyms_django.settings.main import *  # noqa: F401,F403
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SERVICE_NAME = "gamedex"
 BASE_PATH = ""
@@ -32,6 +36,9 @@ INSTALLED_APPS = [  # type: ignore[name-defined]  # noqa: F405
     "apps.genres",
     "apps.regions",
     "apps.releases",
+    "inertia",
+    "django_vite",
+    "apps.web",
 ]
 
 LOCAL_APPS: list[tuple[str, str]] = [
@@ -46,4 +53,33 @@ LOCAL_APPS: list[tuple[str, str]] = [
 MIDDLEWARE = [  # type: ignore[name-defined]  # noqa: F405
     *MIDDLEWARE,
     "django.middleware.locale.LocaleMiddleware",
+    "inertia.middleware.InertiaMiddleware",
 ]
+
+TEMPLATES = [
+    {
+        "BACKEND": "django.template.backends.django.DjangoTemplates",
+        "DIRS": [BASE_DIR / "templates"],
+        "APP_DIRS": True,
+        "OPTIONS": {
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.request",
+                "django.contrib.auth.context_processors.auth",
+                "django.contrib.messages.context_processors.messages",
+            ],
+        },
+    }
+]
+
+INERTIA_LAYOUT = "base.html"
+
+DJANGO_VITE = {
+    "default": {
+        "dev_mode": True,
+        "dev_server_port": 5173,
+    }
+}
+
+STATIC_URL = "/static/"
+STATICFILES_DIRS = [BASE_DIR / "frontend" / "dist"]

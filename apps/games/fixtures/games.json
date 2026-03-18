@@ -3,7 +3,8 @@
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000001",
     "fields": {
-      "name_en": "Super Mario Bros", "name_es": "Super Mario Bros",
+      "name_en": "Super Mario Bros",
+      "name_es": "Super Mario Bros",
       "slug": "super-mario-bros",
       "description_en": "The iconic side-scrolling platformer that defined the NES era. Mario must rescue Princess Peach from Bowser across the Mushroom Kingdom.",
       "description_es": "El icónico plataformas de desplazamiento lateral que definió la era NES. Mario debe rescatar a la Princesa Peach de Bowser en el Reino Champiñón.",
@@ -11,15 +12,22 @@
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": ["33333333-0000-0000-0000-000000000001"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000001"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000002",
     "fields": {
-      "name_en": "The Legend of Zelda: Ocarina of Time", "name_es": "The Legend of Zelda: Ocarina del Tiempo",
+      "name_en": "The Legend of Zelda: Ocarina of Time",
+      "name_es": "The Legend of Zelda: Ocarina del Tiempo",
       "slug": "the-legend-of-zelda-ocarina-of-time",
       "description_en": "A landmark action-adventure game following Link through 3D Hyrule to stop Ganondorf. Widely considered one of the greatest games ever made.",
       "description_es": "Un juego de acción y aventura que sigue a Link por Hyrule en 3D para detener a Ganondorf. Considerado uno de los mejores juegos de la historia.",
@@ -27,15 +35,22 @@
       "genre": "11111111-0000-0000-0000-000000000002",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": ["33333333-0000-0000-0000-000000000003"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000003"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000003",
     "fields": {
-      "name_en": "Sonic the Hedgehog", "name_es": "Sonic el Erizo",
+      "name_en": "Sonic the Hedgehog",
+      "name_es": "Sonic el Erizo",
       "slug": "sonic-the-hedgehog",
       "description_en": "Sega's answer to Mario, featuring the fast blue hedgehog in a colorful world of loops and speed.",
       "description_es": "La respuesta de Sega a Mario: el erizo azul veloz en un colorido mundo de bucles y velocidad.",
@@ -43,15 +58,22 @@
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000004",
       "publisher": "22222222-0000-0000-0000-000000000004",
-      "consoles": ["33333333-0000-0000-0000-000000000032"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000032"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_the_Hedgehog_1_Genesis_box_art.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000004",
     "fields": {
-      "name_en": "Street Fighter II", "name_es": "Street Fighter II",
+      "name_en": "Street Fighter II",
+      "name_es": "Street Fighter II",
       "slug": "street-fighter-ii",
       "description_en": "The definitive fighting game that popularized the genre, featuring eight playable world warriors.",
       "description_es": "El juego de lucha definitivo que popularizó el género, con ocho guerreros del mundo jugables.",
@@ -59,15 +81,22 @@
       "genre": "11111111-0000-0000-0000-000000000006",
       "developer": "22222222-0000-0000-0000-000000000006",
       "publisher": "22222222-0000-0000-0000-000000000006",
-      "consoles": ["33333333-0000-0000-0000-000000000002"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/StreetFighter2.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000005",
     "fields": {
-      "name_en": "Final Fantasy VII", "name_es": "Final Fantasy VII",
+      "name_en": "Final Fantasy VII",
+      "name_es": "Final Fantasy VII",
       "slug": "final-fantasy-vii",
       "description_en": "A groundbreaking JRPG following Cloud Strife and his allies fighting the megacorporation Shinra and the villain Sephiroth.",
       "description_es": "Un JRPG revolucionario que sigue a Cloud Strife y sus aliados luchando contra la megacorporación Shinra y el villano Sephiroth.",
@@ -75,15 +104,22 @@
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000008",
       "publisher": "22222222-0000-0000-0000-000000000008",
-      "consoles": ["33333333-0000-0000-0000-000000000017"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000017"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/ce/FF7PSXCover.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000006",
     "fields": {
-      "name_en": "Metal Gear Solid", "name_es": "Metal Gear Solid",
+      "name_en": "Metal Gear Solid",
+      "name_es": "Metal Gear Solid",
       "slug": "metal-gear-solid",
       "description_en": "A stealth action game following Solid Snake infiltrating a nuclear weapons facility to stop a renegade special forces unit.",
       "description_es": "Un juego de acción sigilosa donde Solid Snake infiltra una instalación de armas nucleares para detener a una unidad de fuerzas especiales renegadas.",
@@ -91,15 +127,22 @@
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000007",
       "publisher": "22222222-0000-0000-0000-000000000007",
-      "consoles": ["33333333-0000-0000-0000-000000000017"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000017"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Metal_Gear_Solid_cover_art.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000007",
     "fields": {
-      "name_en": "Resident Evil", "name_es": "Resident Evil",
+      "name_en": "Resident Evil",
+      "name_es": "Resident Evil",
       "slug": "resident-evil",
       "description_en": "The seminal survival horror game set in a mansion filled with zombies and biological horrors.",
       "description_es": "El juego de terror de supervivencia seminal ambientado en una mansión llena de zombis y horrores biológicos.",
@@ -107,15 +150,22 @@
       "genre": "11111111-0000-0000-0000-000000000011",
       "developer": "22222222-0000-0000-0000-000000000006",
       "publisher": "22222222-0000-0000-0000-000000000006",
-      "consoles": ["33333333-0000-0000-0000-000000000017"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000017"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/77/Resident_Evil_Cover.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000008",
     "fields": {
-      "name_en": "Grand Theft Auto V", "name_es": "Grand Theft Auto V",
+      "name_en": "Grand Theft Auto V",
+      "name_es": "Grand Theft Auto V",
       "slug": "grand-theft-auto-v",
       "description_en": "An open-world crime epic following three criminals in the fictional city of Los Santos. One of the best-selling games of all time.",
       "description_es": "Una épica criminal de mundo abierto con tres criminales en la ficticia ciudad de Los Santos. Uno de los juegos más vendidos de todos los tiempos.",
@@ -123,15 +173,24 @@
       "genre": "11111111-0000-0000-0000-000000000013",
       "developer": "22222222-0000-0000-0000-000000000013",
       "publisher": "22222222-0000-0000-0000-000000000013",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000026", "33333333-0000-0000-0000-000000000027"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000026",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000009",
     "fields": {
-      "name_en": "Red Dead Redemption 2", "name_es": "Red Dead Redemption 2",
+      "name_en": "Red Dead Redemption 2",
+      "name_es": "Red Dead Redemption 2",
       "slug": "red-dead-redemption-2",
       "description_en": "An epic tale of outlaws in America's unforgiving heartland, set in 1899 during the decline of the Wild West era.",
       "description_es": "Una épica historia de forajidos en el corazón implacable de América, ambientada en 1899 durante el declive del Lejano Oeste.",
@@ -139,15 +198,23 @@
       "genre": "11111111-0000-0000-0000-000000000002",
       "developer": "22222222-0000-0000-0000-000000000013",
       "publisher": "22222222-0000-0000-0000-000000000013",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000010",
     "fields": {
-      "name_en": "The Witcher 3: Wild Hunt", "name_es": "The Witcher 3: Caza Salvaje",
+      "name_en": "The Witcher 3: Wild Hunt",
+      "name_es": "The Witcher 3: Caza Salvaje",
       "slug": "the-witcher-3-wild-hunt",
       "description_en": "An award-winning open-world RPG following Geralt of Rivia searching for his surrogate daughter across a war-ravaged continent.",
       "description_es": "Un RPG de mundo abierto galardonado donde Geralt de Rivia busca a su hija adoptiva por un continente devastado por la guerra.",
@@ -155,15 +222,24 @@
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000015",
       "publisher": "22222222-0000-0000-0000-000000000015",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000007"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000011",
     "fields": {
-      "name_en": "Half-Life 2", "name_es": "Half-Life 2",
+      "name_en": "Half-Life 2",
+      "name_es": "Half-Life 2",
       "slug": "half-life-2",
       "description_en": "A revolutionary FPS following Gordon Freeman in a dystopian Earth under alien occupation, praised for its physics and storytelling.",
       "description_es": "Un FPS revolucionario con Gordon Freeman en una Tierra distópica bajo ocupación alienígena, elogiado por su física y narrativa.",
@@ -172,14 +248,19 @@
       "developer": "22222222-0000-0000-0000-000000000014",
       "publisher": "22222222-0000-0000-0000-000000000014",
       "consoles": [],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/220/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000012",
     "fields": {
-      "name_en": "Super Mario 64", "name_es": "Super Mario 64",
+      "name_en": "Super Mario 64",
+      "name_es": "Super Mario 64",
       "slug": "super-mario-64",
       "description_en": "Nintendo's landmark 3D platformer that set the standard for 3D gaming, featuring Mario exploring Princess Peach's castle.",
       "description_es": "El revolucionario plataformas 3D de Nintendo que marcó el estándar del juego en 3D, con Mario explorando el castillo de la Princesa Peach.",
@@ -187,15 +268,22 @@
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": ["33333333-0000-0000-0000-000000000003"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000003"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000013",
     "fields": {
-      "name_en": "Halo: Combat Evolved", "name_es": "Halo: Combat Evolved",
+      "name_en": "Halo: Combat Evolved",
+      "name_es": "Halo: Combat Evolved",
       "slug": "halo-combat-evolved",
       "description_en": "The FPS that launched Xbox and redefined console shooters, following Master Chief battling the alien Covenant.",
       "description_es": "El FPS que lanzó Xbox y redefinió los shooters de consola, con el Jefe Maestro combatiendo al Covenant alienígena.",
@@ -203,15 +291,22 @@
       "genre": "11111111-0000-0000-0000-000000000005",
       "developer": "22222222-0000-0000-0000-000000000003",
       "publisher": "22222222-0000-0000-0000-000000000003",
-      "consoles": ["33333333-0000-0000-0000-000000000025"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000025"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000014",
     "fields": {
-      "name_en": "Pac-Man", "name_es": "Pac-Man",
+      "name_en": "Pac-Man",
+      "name_es": "Pac-Man",
       "slug": "pac-man",
       "description_en": "The timeless arcade classic where a yellow character navigates mazes eating dots while avoiding ghosts.",
       "description_es": "El clásico atemporal de arcade donde un personaje amarillo navega laberintos comiendo puntos y evitando fantasmas.",
@@ -220,14 +315,19 @@
       "developer": "22222222-0000-0000-0000-000000000012",
       "publisher": "22222222-0000-0000-0000-000000000012",
       "consoles": [],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/61/Pac_Man.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000015",
     "fields": {
-      "name_en": "Tetris", "name_es": "Tetris",
+      "name_en": "Tetris",
+      "name_es": "Tetris",
       "slug": "tetris",
       "description_en": "The legendary puzzle game where players arrange falling blocks to clear lines. One of the most played games in history.",
       "description_es": "El legendario juego de puzzles donde los jugadores colocan bloques que caen para limpiar líneas. Uno de los más jugados de la historia.",
@@ -235,15 +335,22 @@
       "genre": "11111111-0000-0000-0000-000000000007",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": ["33333333-0000-0000-0000-000000000009"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000009"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Tetris_NES_cover_art.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000016",
     "fields": {
-      "name_en": "FIFA 23", "name_es": "FIFA 23",
+      "name_en": "FIFA 23",
+      "name_es": "FIFA 23",
       "slug": "fifa-23",
       "description_en": "EA Sports football simulation with updated rosters and HyperMotion2 technology.",
       "description_es": "Simulación de fútbol de EA Sports con plantillas actualizadas y tecnología HyperMotion2.",
@@ -251,15 +358,23 @@
       "genre": "11111111-0000-0000-0000-000000000008",
       "developer": "22222222-0000-0000-0000-000000000010",
       "publisher": "22222222-0000-0000-0000-000000000010",
-      "consoles": ["33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000029"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/d/df/FIFA_23_Cover.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000017",
     "fields": {
-      "name_en": "Mario Kart 8 Deluxe", "name_es": "Mario Kart 8 Deluxe",
+      "name_en": "Mario Kart 8 Deluxe",
+      "name_es": "Mario Kart 8 Deluxe",
       "slug": "mario-kart-8-deluxe",
       "description_en": "Nintendo's definitive kart racing game with 48+ tracks and support for up to 12 online players.",
       "description_es": "El definitivo juego de karts de Nintendo con más de 48 circuitos y soporte para hasta 12 jugadores en línea.",
@@ -267,15 +382,22 @@
       "genre": "11111111-0000-0000-0000-000000000009",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": ["33333333-0000-0000-0000-000000000007"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/93/Mario_kart_8_deluxe.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000018",
     "fields": {
-      "name_en": "Civilization VI", "name_es": "Civilización VI",
+      "name_en": "Civilization VI",
+      "name_es": "Civilización VI",
       "slug": "civilization-vi",
       "description_en": "A turn-based strategy game where players guide a civilization from ancient times to the space age.",
       "description_es": "Un juego de estrategia por turnos donde los jugadores guían una civilización desde la antigüedad hasta la era espacial.",
@@ -284,14 +406,19 @@
       "developer": "22222222-0000-0000-0000-000000000011",
       "publisher": "22222222-0000-0000-0000-000000000011",
       "consoles": [],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/289070/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000019",
     "fields": {
-      "name_en": "The Sims 4", "name_es": "Los Sims 4",
+      "name_en": "The Sims 4",
+      "name_es": "Los Sims 4",
       "slug": "the-sims-4",
       "description_en": "A life simulation game where players create and control people, build homes, and form relationships.",
       "description_es": "Un juego de simulación de vida donde los jugadores crean y controlan personas, construyen hogares y forman relaciones.",
@@ -299,15 +426,23 @@
       "genre": "11111111-0000-0000-0000-000000000012",
       "developer": "22222222-0000-0000-0000-000000000010",
       "publisher": "22222222-0000-0000-0000-000000000010",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/5d/The_Sims_4_cover_art.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000020",
     "fields": {
-      "name_en": "Minecraft", "name_es": "Minecraft",
+      "name_en": "Minecraft",
+      "name_es": "Minecraft",
       "slug": "minecraft",
       "description_en": "The world's best-selling game: a sandbox of infinite possibilities where players build, explore, and survive in procedurally generated worlds.",
       "description_es": "El juego más vendido del mundo: un sandbox de posibilidades infinitas donde los jugadores construyen, exploran y sobreviven en mundos generados proceduralmente.",
@@ -315,15 +450,24 @@
       "genre": "11111111-0000-0000-0000-000000000013",
       "developer": "22222222-0000-0000-0000-000000000003",
       "publisher": "22222222-0000-0000-0000-000000000003",
-      "consoles": ["33333333-0000-0000-0000-000000000007", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000029"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000021",
     "fields": {
-      "name_en": "Pokémon Red and Blue", "name_es": "Pokémon Rojo y Azul",
+      "name_en": "Pokémon Red and Blue",
+      "name_es": "Pokémon Rojo y Azul",
       "slug": "pokemon-red-and-blue",
       "description_en": "The original monster-catching RPG that started a global phenomenon, where players collect and battle Pokémon across the Kanto region.",
       "description_es": "El RPG original de captura de monstruos que inició un fenómeno global, donde los jugadores coleccionan y batallan Pokémon en la región Kanto.",
@@ -331,15 +475,22 @@
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": ["33333333-0000-0000-0000-000000000009"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000009"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_red_box_art_-_English.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000022",
     "fields": {
-      "name_en": "God of War", "name_es": "God of War",
+      "name_en": "God of War",
+      "name_es": "God of War",
       "slug": "god-of-war",
       "description_en": "A mythological action-adventure following Kratos and his son Atreus through Norse mythology.",
       "description_es": "Una aventura de acción mitológica que sigue a Kratos y su hijo Atreo a través de la mitología nórdica.",
@@ -347,15 +498,22 @@
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000002",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000023",
     "fields": {
-      "name_en": "The Last of Us", "name_es": "The Last of Us",
+      "name_en": "The Last of Us",
+      "name_es": "The Last of Us",
       "slug": "the-last-of-us",
       "description_en": "A post-apocalyptic survival story following Joel and Ellie across a fungal-infected United States.",
       "description_es": "Una historia de supervivencia postapocalíptica que sigue a Joel y Ellie por un Estados Unidos infectado por hongos.",
@@ -363,15 +521,23 @@
       "genre": "11111111-0000-0000-0000-000000000011",
       "developer": "22222222-0000-0000-0000-000000000002",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000019", "33333333-0000-0000-0000-000000000020"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000020"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000024",
     "fields": {
-      "name_en": "Dark Souls", "name_es": "Dark Souls",
+      "name_en": "Dark Souls",
+      "name_es": "Dark Souls",
       "slug": "dark-souls",
       "description_en": "FromSoftware's brutal yet rewarding action RPG in a dark fantasy world full of intricate lore and demanding combat.",
       "description_es": "El brutal pero gratificante RPG de acción de FromSoftware en un mundo de fantasía oscura con combate exigente.",
@@ -379,15 +545,23 @@
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000016",
       "publisher": "22222222-0000-0000-0000-000000000012",
-      "consoles": ["33333333-0000-0000-0000-000000000019", "33333333-0000-0000-0000-000000000026"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/211420/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000025",
     "fields": {
-      "name_en": "Donkey Kong", "name_es": "Donkey Kong",
+      "name_en": "Donkey Kong",
+      "name_es": "Donkey Kong",
       "slug": "donkey-kong",
       "description_en": "The classic arcade game where Jumpman (later Mario) climbs ladders and jumps barrels to rescue Pauline from a giant ape.",
       "description_es": "El clásico juego de arcade donde Jumpman (luego Mario) sube escaleras y salta barriles para rescatar a Pauline de un gorila gigante.",
@@ -396,14 +570,19 @@
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
       "consoles": [],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/50/Donkey_Kong_Arcade_Cabinet.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000026",
     "fields": {
-      "name_en": "Mortal Kombat II", "name_es": "Mortal Kombat II",
+      "name_en": "Mortal Kombat II",
+      "name_es": "Mortal Kombat II",
       "slug": "mortal-kombat-ii",
       "description_en": "The brutal fighting game sequel that expanded the roster and introduced iconic fatalities into popular culture.",
       "description_es": "La brutal secuela del juego de lucha que amplió el plantel e introdujo los icónicos fatalities en la cultura popular.",
@@ -411,15 +590,23 @@
       "genre": "11111111-0000-0000-0000-000000000006",
       "developer": "22222222-0000-0000-0000-000000000011",
       "publisher": "22222222-0000-0000-0000-000000000011",
-      "consoles": ["33333333-0000-0000-0000-000000000002", "33333333-0000-0000-0000-000000000032"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002",
+        "33333333-0000-0000-0000-000000000032"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7d/MK2_SNES_PAL.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000027",
     "fields": {
-      "name_en": "Gran Turismo 7", "name_es": "Gran Turismo 7",
+      "name_en": "Gran Turismo 7",
+      "name_es": "Gran Turismo 7",
       "slug": "gran-turismo-7",
       "description_en": "PlayStation's premier racing simulator featuring hundreds of cars and tracks with unparalleled realism.",
       "description_es": "El simulador de carreras premier de PlayStation con cientos de coches y circuitos con un realismo sin igual.",
@@ -427,15 +614,23 @@
       "genre": "11111111-0000-0000-0000-000000000009",
       "developer": "22222222-0000-0000-0000-000000000002",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/bd/Gran_Turismo_7_cover.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000028",
     "fields": {
-      "name_en": "Crash Bandicoot", "name_es": "Crash Bandicoot",
+      "name_en": "Crash Bandicoot",
+      "name_es": "Crash Bandicoot",
       "slug": "crash-bandicoot",
       "description_en": "PlayStation's beloved platformer mascot navigating jungle obstacles in pursuit of the villainous Dr. Neo Cortex.",
       "description_es": "La querida mascota plataformera de PlayStation navegando obstáculos de la jungla en busca del villano Dr. Neo Cortex.",
@@ -443,15 +638,22 @@
       "genre": "11111111-0000-0000-0000-000000000004",
       "developer": "22222222-0000-0000-0000-000000000011",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000017"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000017"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Crash_Bandicoot_Cover.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000029",
     "fields": {
-      "name_en": "Tekken 3", "name_es": "Tekken 3",
+      "name_en": "Tekken 3",
+      "name_es": "Tekken 3",
       "slug": "tekken-3",
       "description_en": "Namco's acclaimed 3D fighting game featuring a new generation of fighters in the King of Iron Fist Tournament.",
       "description_es": "El aclamado juego de lucha 3D de Namco con una nueva generación de luchadores en el Torneo del Rey del Puño de Hierro.",
@@ -459,15 +661,22 @@
       "genre": "11111111-0000-0000-0000-000000000006",
       "developer": "22222222-0000-0000-0000-000000000012",
       "publisher": "22222222-0000-0000-0000-000000000012",
-      "consoles": ["33333333-0000-0000-0000-000000000017"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000017"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/98/Tekken_3_Box_Art.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000030",
     "fields": {
-      "name_en": "The Legend of Zelda: Breath of the Wild", "name_es": "The Legend of Zelda: Breath of the Wild",
+      "name_en": "The Legend of Zelda: Breath of the Wild",
+      "name_es": "The Legend of Zelda: Breath of the Wild",
       "slug": "the-legend-of-zelda-breath-of-the-wild",
       "description_en": "A revolutionary open-world Zelda that redefines exploration and freedom in gaming, set in a ruined Hyrule.",
       "description_es": "Un Zelda de mundo abierto revolucionario que redefine la exploración y la libertad en los videojuegos, ambientado en una Hyrule en ruinas.",
@@ -475,15 +684,22 @@
       "genre": "11111111-0000-0000-0000-000000000002",
       "developer": "22222222-0000-0000-0000-000000000001",
       "publisher": "22222222-0000-0000-0000-000000000001",
-      "consoles": ["33333333-0000-0000-0000-000000000007"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000031",
     "fields": {
-      "name_en": "Elden Ring", "name_es": "Elden Ring",
+      "name_en": "Elden Ring",
+      "name_es": "Elden Ring",
       "slug": "elden-ring",
       "description_en": "FromSoftware's open-world action RPG co-created with George R.R. Martin, set in the Lands Between.",
       "description_es": "El RPG de acción de mundo abierto de FromSoftware co-creado con George R.R. Martin, ambientado en las Tierras Intermedias.",
@@ -491,15 +707,25 @@
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000016",
       "publisher": "22222222-0000-0000-0000-000000000012",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000029"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000032",
     "fields": {
-      "name_en": "The Elder Scrolls V: Skyrim", "name_es": "The Elder Scrolls V: Skyrim",
+      "name_en": "The Elder Scrolls V: Skyrim",
+      "name_es": "The Elder Scrolls V: Skyrim",
       "slug": "the-elder-scrolls-v-skyrim",
       "description_en": "Bethesda's epic open-world RPG where the Dragonborn battles the dragon Alduin to save the world.",
       "description_es": "El épico RPG de mundo abierto de Bethesda donde el Sangre de Dragón lucha contra el dragón Alduin para salvar el mundo.",
@@ -507,15 +733,26 @@
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000017",
       "publisher": "22222222-0000-0000-0000-000000000017",
-      "consoles": ["33333333-0000-0000-0000-000000000019", "33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000026", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000007"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000026",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/72850/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000033",
     "fields": {
-      "name_en": "Uncharted 4: A Thief's End", "name_es": "Uncharted 4: El Desenlace del Ladrón",
+      "name_en": "Uncharted 4: A Thief's End",
+      "name_es": "Uncharted 4: El Desenlace del Ladrón",
       "slug": "uncharted-4-a-thiefs-end",
       "description_en": "Nathan Drake's final adventure in a thrilling treasure hunt across the globe.",
       "description_es": "La aventura final de Nathan Drake en una emocionante búsqueda del tesoro alrededor del mundo.",
@@ -523,15 +760,22 @@
       "genre": "11111111-0000-0000-0000-000000000002",
       "developer": "22222222-0000-0000-0000-000000000018",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Uncharted_4_box_artwork.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000034",
     "fields": {
-      "name_en": "Marvel's Spider-Man", "name_es": "Marvel's Spider-Man",
+      "name_en": "Marvel's Spider-Man",
+      "name_es": "Marvel's Spider-Man",
       "slug": "marvels-spider-man",
       "description_en": "Insomniac Games' acclaimed open-world adventure as Peter Parker's Spider-Man protecting New York City.",
       "description_es": "La aclamada aventura de mundo abierto de Insomniac Games como Spider-Man de Peter Parker protegiendo Nueva York.",
@@ -539,15 +783,23 @@
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000019",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Marvel%27s_Spider-Man_PS4_cover.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000035",
     "fields": {
-      "name_en": "Horizon Zero Dawn", "name_es": "Horizon Zero Dawn",
+      "name_en": "Horizon Zero Dawn",
+      "name_es": "Horizon Zero Dawn",
       "slug": "horizon-zero-dawn",
       "description_en": "An open-world action RPG set in a post-apocalyptic world inhabited by robotic creatures, following hunter Aloy.",
       "description_es": "Un RPG de acción de mundo abierto ambientado en un mundo postapocalíptico habitado por criaturas robóticas, siguiendo a la cazadora Aloy.",
@@ -555,15 +807,22 @@
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000025",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000036",
     "fields": {
-      "name_en": "Overwatch", "name_es": "Overwatch",
+      "name_en": "Overwatch",
+      "name_es": "Overwatch",
       "slug": "overwatch",
       "description_en": "Blizzard's team-based hero shooter featuring a diverse roster of heroes with unique abilities.",
       "description_es": "El shooter de héroes por equipos de Blizzard con un elenco diverso de héroes con habilidades únicas.",
@@ -571,15 +830,23 @@
       "genre": "11111111-0000-0000-0000-000000000005",
       "developer": "22222222-0000-0000-0000-000000000022",
       "publisher": "22222222-0000-0000-0000-000000000011",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/55/Overwatch_cover_art.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000037",
     "fields": {
-      "name_en": "Fortnite", "name_es": "Fortnite",
+      "name_en": "Fortnite",
+      "name_es": "Fortnite",
       "slug": "fortnite",
       "description_en": "Epic Games' battle royale phenomenon where 100 players fight to be the last one standing.",
       "description_es": "El fenómeno battle royale de Epic Games donde 100 jugadores luchan para ser el último en pie.",
@@ -587,15 +854,26 @@
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000023",
       "publisher": "22222222-0000-0000-0000-000000000023",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000029", "33333333-0000-0000-0000-000000000007"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b7/Fortnite_F_lettermark_logo.png"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000038",
     "fields": {
-      "name_en": "League of Legends", "name_es": "League of Legends",
+      "name_en": "League of Legends",
+      "name_es": "League of Legends",
       "slug": "league-of-legends",
       "description_en": "The world's most popular MOBA where two teams of five champions battle to destroy the enemy Nexus.",
       "description_es": "El MOBA más popular del mundo donde dos equipos de cinco campeones luchan para destruir el Nexo enemigo.",
@@ -604,14 +882,19 @@
       "developer": "22222222-0000-0000-0000-000000000024",
       "publisher": "22222222-0000-0000-0000-000000000024",
       "consoles": [],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/1a/League_of_Legends_2019_vector.svg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000039",
     "fields": {
-      "name_en": "Bloodborne", "name_es": "Bloodborne",
+      "name_en": "Bloodborne",
+      "name_es": "Bloodborne",
       "slug": "bloodborne",
       "description_en": "FromSoftware's gothic horror action RPG set in the crumbling city of Yharnam, exclusive to PlayStation.",
       "description_es": "El RPG de acción de terror gótico de FromSoftware ambientado en la decadente ciudad de Yharnam, exclusivo de PlayStation.",
@@ -619,15 +902,22 @@
       "genre": "11111111-0000-0000-0000-000000000003",
       "developer": "22222222-0000-0000-0000-000000000016",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/69/Bloodborne_Cover_Artwork.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000040",
     "fields": {
-      "name_en": "Call of Duty: Modern Warfare", "name_es": "Call of Duty: Modern Warfare",
+      "name_en": "Call of Duty: Modern Warfare",
+      "name_es": "Call of Duty: Modern Warfare",
       "slug": "call-of-duty-modern-warfare",
       "description_en": "Activision's gritty reboot of the Modern Warfare series with realistic military combat.",
       "description_es": "El reinicio crudo de Activision de la serie Modern Warfare con combate militar realista.",
@@ -635,15 +925,23 @@
       "genre": "11111111-0000-0000-0000-000000000005",
       "developer": "22222222-0000-0000-0000-000000000011",
       "publisher": "22222222-0000-0000-0000-000000000011",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/13/Call_of_Duty_Modern_Warfare_2019_cover.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000041",
     "fields": {
-      "name_en": "Sekiro: Shadows Die Twice", "name_es": "Sekiro: Las Sombras Mueren Dos Veces",
+      "name_en": "Sekiro: Shadows Die Twice",
+      "name_es": "Sekiro: Las Sombras Mueren Dos Veces",
       "slug": "sekiro-shadows-die-twice",
       "description_en": "FromSoftware's samurai action game set in late Sengoku-era Japan, following shinobi Wolf.",
       "description_es": "El juego de acción samurái de FromSoftware ambientado en el Japón del período Sengoku tardío, siguiendo al shinobi Wolf.",
@@ -651,15 +949,23 @@
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000016",
       "publisher": "22222222-0000-0000-0000-000000000011",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000027"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000042",
     "fields": {
-      "name_en": "NBA 2K23", "name_es": "NBA 2K23",
+      "name_en": "NBA 2K23",
+      "name_es": "NBA 2K23",
       "slug": "nba-2k23",
       "description_en": "2K's basketball simulation with Michael Jordan's era featured as a special tribute.",
       "description_es": "La simulación de baloncesto de 2K con la era de Michael Jordan como tributo especial.",
@@ -667,15 +973,24 @@
       "genre": "11111111-0000-0000-0000-000000000008",
       "developer": "22222222-0000-0000-0000-000000000020",
       "publisher": "22222222-0000-0000-0000-000000000020",
-      "consoles": ["33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000029", "33333333-0000-0000-0000-000000000007"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/48/NBA_2K23_cover_art.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000043",
     "fields": {
-      "name_en": "Destiny 2", "name_es": "Destiny 2",
+      "name_en": "Destiny 2",
+      "name_es": "Destiny 2",
       "slug": "destiny-2",
       "description_en": "Bungie's free-to-play online FPS where Guardians defend humanity from alien threats across the solar system.",
       "description_es": "El FPS online gratuito de Bungie donde los Guardianes defienden a la humanidad de amenazas alienígenas por el sistema solar.",
@@ -683,15 +998,25 @@
       "genre": "11111111-0000-0000-0000-000000000005",
       "developer": "22222222-0000-0000-0000-000000000021",
       "publisher": "22222222-0000-0000-0000-000000000021",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022", "33333333-0000-0000-0000-000000000027", "33333333-0000-0000-0000-000000000029"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1085660/header.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000044",
     "fields": {
-      "name_en": "The Last of Us Part II", "name_es": "The Last of Us Parte II",
+      "name_en": "The Last of Us Part II",
+      "name_es": "The Last of Us Parte II",
       "slug": "the-last-of-us-part-ii",
       "description_en": "Naughty Dog's controversial but critically acclaimed sequel exploring cycles of violence through Ellie's revenge story.",
       "description_es": "La polémica pero aclamada secuela de Naughty Dog que explora los ciclos de violencia a través de la historia de venganza de Ellie.",
@@ -699,15 +1024,23 @@
       "genre": "11111111-0000-0000-0000-000000000011",
       "developer": "22222222-0000-0000-0000-000000000018",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_Full.jpg"
     }
   },
   {
     "model": "games.games",
     "pk": "44444444-0000-0000-0000-000000000045",
     "fields": {
-      "name_en": "Ghost of Tsushima", "name_es": "Ghost of Tsushima",
+      "name_en": "Ghost of Tsushima",
+      "name_es": "Ghost of Tsushima",
       "slug": "ghost-of-tsushima",
       "description_en": "Sucker Punch's open-world samurai epic set during the Mongol invasion of Tsushima island in 1274.",
       "description_es": "La épica samurái de mundo abierto de Sucker Punch ambientada durante la invasión mongola de la isla de Tsushima en 1274.",
@@ -715,8 +1048,2523 @@
       "genre": "11111111-0000-0000-0000-000000000001",
       "developer": "22222222-0000-0000-0000-000000000002",
       "publisher": "22222222-0000-0000-0000-000000000002",
-      "consoles": ["33333333-0000-0000-0000-000000000020", "33333333-0000-0000-0000-000000000022"],
-      "active": true, "deleted_at": null, "created_at": "2024-01-01T00:00:00Z", "updated_at": "2024-01-01T00:00:00Z"
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b1/Ghost_of_Tsushima.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000046",
+    "fields": {
+      "name_en": "Super Mario World",
+      "name_es": "Super Mario World",
+      "slug": "super-mario-world",
+      "description_en": "Mario's launch title for the SNES introduces Yoshi and a sprawling world map across Dinosaur Land.",
+      "description_es": "El juego de lanzamiento de Mario para SNES presenta a Yoshi y un extenso mapa mundial por la Tierra de los Dinosaurios.",
+      "release_year": 1990,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000047",
+    "fields": {
+      "name_en": "Super Metroid",
+      "name_es": "Super Metroid",
+      "slug": "super-metroid",
+      "description_en": "Samus Aran returns to Planet Zebes to retrieve the last Metroid hatchling in this definitive Metroidvania.",
+      "description_es": "Samus Aran regresa al Planeta Zebes para recuperar la última cría Metroid en este Metroidvania definitivo.",
+      "release_year": 1994,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroid_boxart.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000048",
+    "fields": {
+      "name_en": "Chrono Trigger",
+      "name_es": "Chrono Trigger",
+      "slug": "chrono-trigger",
+      "description_en": "Square's timeless JRPG combining time travel with a rich narrative and innovative dual-tech combat system.",
+      "description_es": "El atemporal JRPG de Square que combina viajes en el tiempo con una rica narrativa y un innovador sistema de combate dual.",
+      "release_year": 1995,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000049",
+    "fields": {
+      "name_en": "Castlevania: Symphony of the Night",
+      "name_es": "Castlevania: Sinfonía de la Noche",
+      "slug": "castlevania-symphony-of-the-night",
+      "description_en": "Alucard explores Dracula's inverted castle in this landmark action RPG that defined the Metroidvania genre.",
+      "description_es": "Alucard explora el castillo invertido de Drácula en este RPG de acción referente que definió el género Metroidvania.",
+      "release_year": 1997,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000007",
+      "publisher": "22222222-0000-0000-0000-000000000007",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000017"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/4a/Castlevania_Symphony_of_the_Night_PAL.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000050",
+    "fields": {
+      "name_en": "Silent Hill 2",
+      "name_es": "Silent Hill 2",
+      "slug": "silent-hill-2",
+      "description_en": "James Sunderland travels to the foggy town of Silent Hill after receiving a letter from his dead wife. A masterpiece of psychological horror.",
+      "description_es": "James Sunderland viaja a la neblinosa ciudad de Silent Hill tras recibir una carta de su difunta esposa. Una obra maestra del terror psicológico.",
+      "release_year": 2001,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000007",
+      "publisher": "22222222-0000-0000-0000-000000000007",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018",
+        "33333333-0000-0000-0000-000000000025"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Silent_Hill_2_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000051",
+    "fields": {
+      "name_en": "Diablo II",
+      "name_es": "Diablo II",
+      "slug": "diablo-ii",
+      "description_en": "Blizzard's definitive action RPG dungeon crawler where heroes pursue the Prime Evils across the dark world of Sanctuary.",
+      "description_es": "El definitivo RPG de acción dungeon crawler de Blizzard donde los héroes persiguen a los Males Primarios por el oscuro mundo de Santuario.",
+      "release_year": 2000,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000022",
+      "publisher": "22222222-0000-0000-0000-000000000022",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1850570/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000052",
+    "fields": {
+      "name_en": "StarCraft",
+      "name_es": "StarCraft",
+      "slug": "starcraft",
+      "description_en": "Blizzard's sci-fi real-time strategy game pitting three distinct races — Terran, Zerg, and Protoss — against each other.",
+      "description_es": "El juego de estrategia en tiempo real de ciencia ficción de Blizzard que enfrenta a tres razas distintas: Terran, Zerg y Protoss.",
+      "release_year": 1998,
+      "genre": "11111111-0000-0000-0000-000000000010",
+      "developer": "22222222-0000-0000-0000-000000000022",
+      "publisher": "22222222-0000-0000-0000-000000000022",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/2962210/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000053",
+    "fields": {
+      "name_en": "Warcraft III: Reign of Chaos",
+      "name_es": "Warcraft III: El Reinado del Caos",
+      "slug": "warcraft-iii-reign-of-chaos",
+      "description_en": "Blizzard's landmark RTS that introduced RPG elements and laid the groundwork for World of Warcraft and the MOBA genre.",
+      "description_es": "El RTS de referencia de Blizzard que introdujo elementos RPG y sentó las bases de World of Warcraft y el género MOBA.",
+      "release_year": 2002,
+      "genre": "11111111-0000-0000-0000-000000000010",
+      "developer": "22222222-0000-0000-0000-000000000022",
+      "publisher": "22222222-0000-0000-0000-000000000022",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/93/Warcraft_III_-_Reign_of_Chaos_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000054",
+    "fields": {
+      "name_en": "Counter-Strike: Global Offensive",
+      "name_es": "Counter-Strike: Global Offensive",
+      "slug": "counter-strike-global-offensive",
+      "description_en": "Valve's competitive tactical shooter pitting terrorists against counter-terrorists. One of the most played PC games ever.",
+      "description_es": "El shooter táctico competitivo de Valve que enfrenta a terroristas contra contra-terroristas. Uno de los juegos de PC más jugados de la historia.",
+      "release_year": 2012,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000014",
+      "publisher": "22222222-0000-0000-0000-000000000014",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000055",
+    "fields": {
+      "name_en": "Portal 2",
+      "name_es": "Portal 2",
+      "slug": "portal-2",
+      "description_en": "Valve's mind-bending puzzle platformer where Chell uses a portal gun to navigate test chambers alongside GLaDOS and Wheatley.",
+      "description_es": "El juego de puzzles de Valve donde Chell usa una pistola de portales para navegar cámaras de prueba junto a GLaDOS y Wheatley.",
+      "release_year": 2011,
+      "genre": "11111111-0000-0000-0000-000000000007",
+      "developer": "22222222-0000-0000-0000-000000000014",
+      "publisher": "22222222-0000-0000-0000-000000000014",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000056",
+    "fields": {
+      "name_en": "BioShock",
+      "name_es": "BioShock",
+      "slug": "bioshock",
+      "description_en": "A narrative-driven FPS set in the underwater dystopia of Rapture, exploring Ayn Rand philosophy through horror and plasmid powers.",
+      "description_es": "Un FPS narrativo ambientado en la distopía submarina de Rapture, que explora la filosofía de Ayn Rand a través del horror y los poderes plasmid.",
+      "release_year": 2007,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000020",
+      "publisher": "22222222-0000-0000-0000-000000000020",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/7670/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000057",
+    "fields": {
+      "name_en": "Mass Effect 2",
+      "name_es": "Mass Effect 2",
+      "slug": "mass-effect-2",
+      "description_en": "Commander Shepard assembles a suicide squad to stop the Collectors in BioWare's acclaimed sci-fi RPG.",
+      "description_es": "El Comandante Shepard forma un equipo suicida para detener a los Coleccionistas en el aclamado RPG de ciencia ficción de BioWare.",
+      "release_year": 2010,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/24980/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000058",
+    "fields": {
+      "name_en": "Dragon Age: Origins",
+      "name_es": "Dragon Age: Orígenes",
+      "slug": "dragon-age-origins",
+      "description_en": "BioWare's dark fantasy RPG where a Grey Warden must unite the nations of Ferelden against the Fifth Blight.",
+      "description_es": "El oscuro RPG de fantasía de BioWare donde un Guardián Gris debe unir a las naciones de Fereldan contra el Quinto Flagelo.",
+      "release_year": 2009,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/17450/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000059",
+    "fields": {
+      "name_en": "Fallout: New Vegas",
+      "name_es": "Fallout: New Vegas",
+      "slug": "fallout-new-vegas",
+      "description_en": "Obsidian's acclaimed post-apocalyptic RPG set in the Mojave Wasteland, featuring deep faction politics and branching narratives.",
+      "description_es": "El aclamado RPG postapocalíptico de Obsidian ambientado en el Desierto de Mojave, con profunda política de facciones y narrativas ramificadas.",
+      "release_year": 2010,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000017",
+      "publisher": "22222222-0000-0000-0000-000000000017",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/22380/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000060",
+    "fields": {
+      "name_en": "The Legend of Zelda: A Link to the Past",
+      "name_es": "The Legend of Zelda: Un Enlace al Pasado",
+      "slug": "the-legend-of-zelda-a-link-to-the-past",
+      "description_en": "Link travels between the Light and Dark Worlds to rescue the seven maidens and defeat Ganon in this SNES classic.",
+      "description_es": "Link viaja entre el Mundo de la Luz y el Mundo de la Oscuridad para rescatar a las siete doncellas y derrotar a Ganon en este clásico de SNES.",
+      "release_year": 1991,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/e0/The_Legend_of_Zelda_A_Link_to_the_Past_SNES.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000061",
+    "fields": {
+      "name_en": "Doom (1993)",
+      "name_es": "Doom (1993)",
+      "slug": "doom-1993",
+      "description_en": "id Software's seminal FPS that defined the genre, following a marine battling demonic hordes on Mars and Hell.",
+      "description_es": "El FPS seminal de id Software que definió el género, siguiendo a un marine batallando hordas demoníacas en Marte y el Infierno.",
+      "release_year": 1993,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/2280/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000062",
+    "fields": {
+      "name_en": "Quake",
+      "name_es": "Quake",
+      "slug": "quake",
+      "description_en": "id Software's fully 3D FPS sequel to Doom, pioneering online multiplayer deathmatch and Gothic horror aesthetics.",
+      "description_es": "La secuela completamente 3D de Doom de id Software, pionera del deathmatch multijugador online y la estética de horror gótico.",
+      "release_year": 1996,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/2310/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000063",
+    "fields": {
+      "name_en": "Resident Evil 4",
+      "name_es": "Resident Evil 4",
+      "slug": "resident-evil-4",
+      "description_en": "Leon Kennedy rescues the US President's daughter from a Spanish cult in Capcom's revolutionary over-the-shoulder action horror.",
+      "description_es": "Leon Kennedy rescata a la hija del Presidente de EE.UU. de un culto español en el revolucionario horror de acción en tercera persona de Capcom.",
+      "release_year": 2005,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000004",
+        "33333333-0000-0000-0000-000000000018"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/10/RE4GameCover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000064",
+    "fields": {
+      "name_en": "Devil May Cry 3",
+      "name_es": "Devil May Cry 3",
+      "slug": "devil-may-cry-3",
+      "description_en": "Dante faces his twin brother Vergil in Capcom's stylish action game with deep combo mechanics and gothic atmosphere.",
+      "description_es": "Dante se enfrenta a su hermano gemelo Vergil en el elegante juego de acción de Capcom con mecánicas de combos profundas y atmósfera gótica.",
+      "release_year": 2005,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/1b/DMC3_Special_Edition_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000065",
+    "fields": {
+      "name_en": "Shadow of the Colossus",
+      "name_es": "Shadow of the Colossus",
+      "slug": "shadow-of-the-colossus",
+      "description_en": "Wander must defeat sixteen colossi to resurrect a girl, in this minimalist masterpiece that questions the nature of heroism.",
+      "description_es": "Wander debe derrotar a dieciséis colosos para resucitar a una chica, en esta obra maestra minimalista que cuestiona la naturaleza del heroísmo.",
+      "release_year": 2005,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Shadow_of_the_Colossus_cover_PS2.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000066",
+    "fields": {
+      "name_en": "Kingdom Hearts II",
+      "name_es": "Kingdom Hearts II",
+      "slug": "kingdom-hearts-ii",
+      "description_en": "Sora, Donald, and Goofy travel across Disney worlds to stop Organization XIII in Square Enix's beloved action RPG.",
+      "description_es": "Sora, Donald y Goofy viajan por mundos Disney para detener a la Organización XIII en el querido RPG de acción de Square Enix.",
+      "release_year": 2005,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kingdom_Hearts_II.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000067",
+    "fields": {
+      "name_en": "Gran Turismo 4",
+      "name_es": "Gran Turismo 4",
+      "slug": "gran-turismo-4",
+      "description_en": "Sony's acclaimed racing simulator for PS2 with over 700 cars and stunning realism for its time.",
+      "description_es": "El aclamado simulador de carreras de Sony para PS2 con más de 700 coches y un realismo impresionante para su época.",
+      "release_year": 2004,
+      "genre": "11111111-0000-0000-0000-000000000009",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/95/Gran_Turismo_4.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000068",
+    "fields": {
+      "name_en": "Halo 3",
+      "name_es": "Halo 3",
+      "slug": "halo-3",
+      "description_en": "Master Chief finishes the fight against the Covenant and the Flood in Bungie's blockbuster Xbox 360 FPS.",
+      "description_es": "El Jefe Maestro termina la lucha contra el Covenant y el Flood en el superventas FPS de Xbox 360 de Bungie.",
+      "release_year": 2007,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000021",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/ef/Halo3_HiRes.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000069",
+    "fields": {
+      "name_en": "Gears of War",
+      "name_es": "Gears of War",
+      "slug": "gears-of-war",
+      "description_en": "Marcus Fenix and Delta Squad battle the Locust Horde in Epic's cover-based shooter that defined the Xbox 360 era.",
+      "description_es": "Marcus Fenix y el Escuadrón Delta luchan contra la Horda Locust en el shooter de cobertura de Epic que definió la era de Xbox 360.",
+      "release_year": 2006,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Gears_of_War_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000070",
+    "fields": {
+      "name_en": "Assassin's Creed II",
+      "name_es": "Assassin's Creed II",
+      "slug": "assassins-creed-ii",
+      "description_en": "Ezio Auditore navigates Renaissance Italy hunting the Pazzi conspirators in Ubisoft's acclaimed open-world stealth adventure.",
+      "description_es": "Ezio Auditore recorre la Italia renacentista cazando a los conspiradores Pazzi en la aclamada aventura de sigilo de mundo abierto de Ubisoft.",
+      "release_year": 2009,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000009",
+      "publisher": "22222222-0000-0000-0000-000000000009",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/9d/AssassinsCreedIICover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000071",
+    "fields": {
+      "name_en": "Far Cry 3",
+      "name_es": "Far Cry 3",
+      "slug": "far-cry-3",
+      "description_en": "Jason Brody must rescue his friends from a pirate-infested tropical island in Ubisoft's open-world FPS featuring the iconic villain Vaas.",
+      "description_es": "Jason Brody debe rescatar a sus amigos de una isla tropical infestada de piratas en el FPS de mundo abierto de Ubisoft con el icónico villano Vaas.",
+      "release_year": 2012,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000009",
+      "publisher": "22222222-0000-0000-0000-000000000009",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000026",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/220240/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000072",
+    "fields": {
+      "name_en": "Batman: Arkham City",
+      "name_es": "Batman: Arkham City",
+      "slug": "batman-arkham-city",
+      "description_en": "Batman navigates the open-air prison district of Arkham City to stop Hugo Strange and the Joker's final scheme.",
+      "description_es": "Batman navega por el distrito prisión al aire libre de Ciudad Arkham para detener a Hugo Strange y el último plan del Joker.",
+      "release_year": 2011,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/200260/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000073",
+    "fields": {
+      "name_en": "The Witcher 2: Assassins of Kings",
+      "name_es": "The Witcher 2: Asesinos de Reyes",
+      "slug": "the-witcher-2-assassins-of-kings",
+      "description_en": "Geralt of Rivia investigates a plot to assassinate kings across the Northern Kingdoms in CD Projekt's acclaimed RPG sequel.",
+      "description_es": "Geralt de Rivia investiga un complot para asesinar reyes en los Reinos del Norte en la aclamada secuela RPG de CD Projekt.",
+      "release_year": 2011,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000015",
+      "publisher": "22222222-0000-0000-0000-000000000015",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/20920/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000074",
+    "fields": {
+      "name_en": "Cyberpunk 2077",
+      "name_es": "Cyberpunk 2077",
+      "slug": "cyberpunk-2077",
+      "description_en": "V navigates the neon-soaked Night City in CD Projekt's ambitious open-world RPG set in a dystopian future.",
+      "description_es": "V navega por la ciudad Night City bañada en neón en el ambicioso RPG de mundo abierto de CD Projekt ambientado en un futuro distópico.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000015",
+      "publisher": "22222222-0000-0000-0000-000000000015",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000075",
+    "fields": {
+      "name_en": "Hollow Knight",
+      "name_es": "Hollow Knight",
+      "slug": "hollow-knight",
+      "description_en": "Team Cherry's indie Metroidvania set in the underground kingdom of Hallownest, praised for its art, challenge, and lore.",
+      "description_es": "El Metroidvania indie de Team Cherry ambientado en el reino subterráneo de Hallownest, elogiado por su arte, desafío y lore.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000076",
+    "fields": {
+      "name_en": "Celeste",
+      "name_es": "Celeste",
+      "slug": "celeste",
+      "description_en": "Madeline climbs Celeste Mountain in this precision platformer that doubles as a story about mental health and perseverance.",
+      "description_es": "Madeline escala la Montaña Celeste en este plataformas de precisión que es también una historia sobre salud mental y perseverancia.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000077",
+    "fields": {
+      "name_en": "Stardew Valley",
+      "name_es": "Stardew Valley",
+      "slug": "stardew-valley",
+      "description_en": "A beloved indie farming simulation RPG where players restore their grandfather's run-down farm and build community bonds.",
+      "description_es": "Un querido RPG de simulación de agricultura donde los jugadores restauran la granja abandonada de su abuelo y construyen lazos comunitarios.",
+      "release_year": 2016,
+      "genre": "11111111-0000-0000-0000-000000000012",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000078",
+    "fields": {
+      "name_en": "Among Us",
+      "name_es": "Among Us",
+      "slug": "among-us",
+      "description_en": "InnerSloth's social deduction game where crewmates complete tasks while impostors sabotage and eliminate them.",
+      "description_es": "El juego de deducción social de InnerSloth donde los tripulantes completan tareas mientras los impostores sabotean y los eliminan.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000012",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000079",
+    "fields": {
+      "name_en": "Apex Legends",
+      "name_es": "Apex Legends",
+      "slug": "apex-legends",
+      "description_en": "EA's free-to-play battle royale hero shooter set in the Titanfall universe, featuring Legends with unique abilities.",
+      "description_es": "El battle royale hero shooter gratuito de EA ambientado en el universo Titanfall, con Leyendas de habilidades únicas.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1172470/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000080",
+    "fields": {
+      "name_en": "Valorant",
+      "name_es": "Valorant",
+      "slug": "valorant",
+      "description_en": "Riot Games' tactical 5v5 character-based shooter combining precise gunplay with agent abilities.",
+      "description_es": "El shooter táctico 5v5 de Riot Games basado en personajes, combinando disparos precisos con habilidades de agentes.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000024",
+      "publisher": "22222222-0000-0000-0000-000000000024",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Valorant_box_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000081",
+    "fields": {
+      "name_en": "Dota 2",
+      "name_es": "Dota 2",
+      "slug": "dota-2",
+      "description_en": "Valve's free-to-play MOBA sequel to the original Warcraft III mod, featuring 120+ heroes and a notoriously deep competitive scene.",
+      "description_es": "El MOBA gratuito de Valve, secuela del mod original de Warcraft III, con más de 120 héroes y una escena competitiva notoriamente profunda.",
+      "release_year": 2013,
+      "genre": "11111111-0000-0000-0000-000000000010",
+      "developer": "22222222-0000-0000-0000-000000000014",
+      "publisher": "22222222-0000-0000-0000-000000000014",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000082",
+    "fields": {
+      "name_en": "The Sims 2",
+      "name_es": "Los Sims 2",
+      "slug": "the-sims-2",
+      "description_en": "EA's life simulation sequel introduces aging, genetics, and aspirations for fully realized virtual lives across generations.",
+      "description_es": "La secuela de simulación de vida de EA introduce el envejecimiento, la genética y las aspiraciones para vidas virtuales completamente realizadas a través de generaciones.",
+      "release_year": 2004,
+      "genre": "11111111-0000-0000-0000-000000000012",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/a1/The_Sims_2_icon.png"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000083",
+    "fields": {
+      "name_en": "Need for Speed: Most Wanted",
+      "name_es": "Need for Speed: El Más Buscado",
+      "slug": "need-for-speed-most-wanted",
+      "description_en": "Race through Rockport evading cops and climbing the Blacklist in EA's iconic open-world street racing game.",
+      "description_es": "Corre por Rockport evadiendo a la policía y escalando la Lista Negra en el icónico juego de carreras callejeras de mundo abierto de EA.",
+      "release_year": 2005,
+      "genre": "11111111-0000-0000-0000-000000000009",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018",
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000025",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Need_For_Speed_Most_Wanted.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000084",
+    "fields": {
+      "name_en": "Burnout 3: Takedown",
+      "name_es": "Burnout 3: Takedown",
+      "slug": "burnout-3-takedown",
+      "description_en": "EA's acclaimed arcade racer focused on high-speed crashes and takedowns, praised as one of the best racing games ever made.",
+      "description_es": "El aclamado juego de carreras arcade de EA centrado en choques de alta velocidad y derribos, elogiado como uno de los mejores juegos de carreras jamás creados.",
+      "release_year": 2004,
+      "genre": "11111111-0000-0000-0000-000000000009",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018",
+        "33333333-0000-0000-0000-000000000025"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Burnout_3.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000085",
+    "fields": {
+      "name_en": "God of War III",
+      "name_es": "God of War III",
+      "slug": "god-of-war-iii",
+      "description_en": "Kratos storms Mount Olympus to kill Zeus in Sony Santa Monica's spectacular conclusion to the Greek mythology trilogy.",
+      "description_es": "Kratos asalta el Monte Olimpo para matar a Zeus en la espectacular conclusión de Sony Santa Monica a la trilogía de mitología griega.",
+      "release_year": 2010,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/6/67/God_of_War_III.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000086",
+    "fields": {
+      "name_en": "Uncharted 2: Among Thieves",
+      "name_es": "Uncharted 2: El Reino de los Ladrones",
+      "slug": "uncharted-2-among-thieves",
+      "description_en": "Nathan Drake searches for Shambhala and Marco Polo's lost fleet in Naughty Dog's acclaimed PS3 action-adventure.",
+      "description_es": "Nathan Drake busca Shambhala y la flota perdida de Marco Polo en la aclamada aventura de acción de Naughty Dog para PS3.",
+      "release_year": 2009,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000018",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7e/Uncharted_2_Among_Thieves.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000087",
+    "fields": {
+      "name_en": "Ratchet & Clank: Up Your Arsenal",
+      "name_es": "Ratchet & Clank: Armados hasta los Dientes",
+      "slug": "ratchet-and-clank-up-your-arsenal",
+      "description_en": "Ratchet and Clank travel across the galaxy battling Dr. Nefarious in Insomniac's beloved PS2 platformer-shooter.",
+      "description_es": "Ratchet y Clank viajan por la galaxia combatiendo al Dr. Nefarious en el querido plataformas-shooter de Insomniac para PS2.",
+      "release_year": 2004,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000019",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/c8/Ratchet_%26_Clank_-_Up_Your_Arsenal_Coverart.png"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000088",
+    "fields": {
+      "name_en": "Spyro the Dragon",
+      "name_es": "Spyro el Dragón",
+      "slug": "spyro-the-dragon",
+      "description_en": "The young purple dragon Spyro explores six homeworlds to rescue crystallized dragons in Insomniac's classic PS1 platformer.",
+      "description_es": "El joven dragón morado Spyro explora seis mundos principales para rescatar dragones cristalizados en el clásico plataformas de Insomniac para PS1.",
+      "release_year": 1998,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000019",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000017"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/8/84/Spyro_the_Dragon_Cover.png"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000089",
+    "fields": {
+      "name_en": "Sonic Adventure 2",
+      "name_es": "Sonic Adventure 2",
+      "slug": "sonic-adventure-2",
+      "description_en": "Sonic races against Shadow the Hedgehog to save the world from an orbital laser in Sega's beloved Dreamcast/GameCube title.",
+      "description_es": "Sonic corre contra Shadow el Erizo para salvar el mundo de un láser orbital en el querido título de Dreamcast/GameCube de Sega.",
+      "release_year": 2001,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000004",
+      "publisher": "22222222-0000-0000-0000-000000000004",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000034",
+        "33333333-0000-0000-0000-000000000004"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Sonic_Adventure_2_DC.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000090",
+    "fields": {
+      "name_en": "Persona 5",
+      "name_es": "Persona 5",
+      "slug": "persona-5",
+      "description_en": "A group of high-school students awaken their Personas to steal the distorted desires of corrupt adults in Atlus's stylish JRPG.",
+      "description_es": "Un grupo de estudiantes de secundaria despiertan sus Personas para robar los deseos distorsionados de adultos corruptos en el estilizado JRPG de Atlus.",
+      "release_year": 2016,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000020"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/5/52/Persona5boxart.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000091",
+    "fields": {
+      "name_en": "Persona 5 Royal",
+      "name_es": "Persona 5 Royal",
+      "slug": "persona-5-royal",
+      "description_en": "The definitive edition of Persona 5 with a new semester, party member Kasumi Yoshizawa, and reworked content.",
+      "description_es": "La edición definitiva de Persona 5 con un nuevo semestre, el miembro del grupo Kasumi Yoshizawa y contenido remodelado.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/ab/Persona_5_Royal_box_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000092",
+    "fields": {
+      "name_en": "Final Fantasy X",
+      "name_es": "Final Fantasy X",
+      "slug": "final-fantasy-x",
+      "description_en": "Tidus travels to a world under the shadow of the monster Sin, aiding summoner Yuna on her pilgrimage in Square's PS2 JRPG masterpiece.",
+      "description_es": "Tidus viaja a un mundo bajo la sombra del monstruo Sin, ayudando a la invocadora Yuna en su peregrinaje en la obra maestra JRPG de Square para PS2.",
+      "release_year": 2001,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018",
+        "33333333-0000-0000-0000-000000000023"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/97/Final_Fantasy_X_PAL_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000093",
+    "fields": {
+      "name_en": "Final Fantasy VI",
+      "name_es": "Final Fantasy VI",
+      "slug": "final-fantasy-vi",
+      "description_en": "A diverse cast of rebels fights the tyrannical Gestahlian Empire in Square's celebrated SNES JRPG, often called the best in the series.",
+      "description_es": "Un elenco diverso de rebeldes lucha contra el tiránico Imperio Gestahlia en el celebrado JRPG de Square para SNES, considerado a menudo el mejor de la serie.",
+      "release_year": 1994,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000002"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/0/05/Final_Fantasy_VI.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000094",
+    "fields": {
+      "name_en": "Dragon Quest XI: Echoes of an Elusive Age",
+      "name_es": "Dragon Quest XI: Ecos de un Pasado Perdido",
+      "slug": "dragon-quest-xi",
+      "description_en": "The Luminary discovers his identity as the legendary hero and must face the Darkspawn threatening the world in Square Enix's acclaimed JRPG.",
+      "description_es": "El Luminario descubre su identidad como el legendario héroe y debe enfrentarse al Oscurodín que amenaza al mundo en el aclamado JRPG de Square Enix.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000008",
+      "publisher": "22222222-0000-0000-0000-000000000008",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/742120/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000095",
+    "fields": {
+      "name_en": "Xenoblade Chronicles",
+      "name_es": "Xenoblade Chronicles",
+      "slug": "xenoblade-chronicles",
+      "description_en": "Shulk wields the Monado blade to avenge his colony against the Mechon on the bodies of two giant titans in Monolith Soft's epic JRPG.",
+      "description_es": "Shulk empuña la espada Monado para vengar su colonia contra los Mechon sobre los cuerpos de dos titanes gigantes en el épico JRPG de Monolith Soft.",
+      "release_year": 2010,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000005",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/d/df/Xenoblade_box_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000096",
+    "fields": {
+      "name_en": "Fire Emblem: Three Houses",
+      "name_es": "Fire Emblem: Tres Casas",
+      "slug": "fire-emblem-three-houses",
+      "description_en": "Byleth teaches students from three rival houses at Garreg Mach Monastery before war erupts across Fódlan in this acclaimed strategy RPG.",
+      "description_es": "Byleth enseña a estudiantes de tres casas rivales en el Monasterio de Garreg Mach antes de que estalle la guerra por Fódlan en este aclamado RPG de estrategia.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000010",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Fire_Emblem_Three_Houses.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000097",
+    "fields": {
+      "name_en": "Splatoon 2",
+      "name_es": "Splatoon 2",
+      "slug": "splatoon-2",
+      "description_en": "Inklings battle for turf in Nintendo's colorful ink-shooting multiplayer game, with an expanded hero mode and new weapons.",
+      "description_es": "Los Inklings luchan por territorio en el colorido juego multijugador de disparos de tinta de Nintendo, con un modo héroe ampliado y nuevas armas.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/14/Splatoon_2_box_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000098",
+    "fields": {
+      "name_en": "Animal Crossing: New Horizons",
+      "name_es": "Animal Crossing: New Horizons",
+      "slug": "animal-crossing-new-horizons",
+      "description_en": "Players build a life on a deserted island, customizing homes and building community in Nintendo's beloved life simulator.",
+      "description_es": "Los jugadores construyen una vida en una isla desierta, personalizando hogares y construyendo comunidad en el querido simulador de vida de Nintendo.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000012",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Animal_Crossing_New_Horizons.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000099",
+    "fields": {
+      "name_en": "Super Smash Bros. Ultimate",
+      "name_es": "Super Smash Bros. Ultimate",
+      "slug": "super-smash-bros-ultimate",
+      "description_en": "Every fighter ever is back in Nintendo's crossover platform fighter featuring 89 playable characters from across gaming history.",
+      "description_es": "Todos los luchadores de siempre vuelven en el juego de lucha de plataformas crossover de Nintendo con 89 personajes jugables de toda la historia de los videojuegos.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7e/Super_Smash_Bros_Ultimate_cover_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000100",
+    "fields": {
+      "name_en": "Metroid Dread",
+      "name_es": "Metroid Dread",
+      "slug": "metroid-dread",
+      "description_en": "Samus Aran infiltrates ZDR to investigate Metroid survivors while hunted by the indestructible E.M.M.I. robots.",
+      "description_es": "Samus Aran se infiltra en ZDR para investigar a los supervivientes Metroid mientras es cazada por los indestructibles robots E.M.M.I.",
+      "release_year": 2021,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/ab/Metroid_Dread_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000101",
+    "fields": {
+      "name_en": "The Legend of Zelda: Tears of the Kingdom",
+      "name_es": "The Legend of Zelda: Las Lágrimas del Reino",
+      "slug": "the-legend-of-zelda-tears-of-the-kingdom",
+      "description_en": "Link explores the skies and depths beneath Hyrule to stop Ganondorf's resurrection using new abilities like Ultrahand and Fuse.",
+      "description_es": "Link explora los cielos y las profundidades bajo Hyrule para detener la resurrección de Ganondorf usando nuevas habilidades como Ultramano y Fusión.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000102",
+    "fields": {
+      "name_en": "Pikmin 4",
+      "name_es": "Pikmin 4",
+      "slug": "pikmin-4",
+      "description_en": "Rescue castaways on a mysterious planet using a new canine companion Oatchi and new Pikmin types in Nintendo's strategy series.",
+      "description_es": "Rescata náufragos en un misterioso planeta usando el nuevo compañero canino Oatchi y nuevos tipos de Pikmin en la serie de estrategia de Nintendo.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000010",
+      "developer": "22222222-0000-0000-0000-000000000001",
+      "publisher": "22222222-0000-0000-0000-000000000001",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b1/Pikmin_4_key_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000103",
+    "fields": {
+      "name_en": "God of War: Ragnarök",
+      "name_es": "God of War: Ragnarök",
+      "slug": "god-of-war-ragnarok",
+      "description_en": "Kratos and Atreus travel across all Nine Realms to prevent Ragnarök while confronting Odin and Thor in Sony Santa Monica's sequel.",
+      "description_es": "Kratos y Atreo viajan por los Nueve Reinos para prevenir el Ragnarök mientras se enfrentan a Odín y Thor en la secuela de Sony Santa Monica.",
+      "release_year": 2022,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/3/37/God_of_War_Ragnar%C3%B6k_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000104",
+    "fields": {
+      "name_en": "Marvel's Spider-Man 2",
+      "name_es": "Marvel's Spider-Man 2",
+      "slug": "marvels-spider-man-2",
+      "description_en": "Peter Parker and Miles Morales face Venom and Kraven the Hunter in Insomniac's PS5 open-world superhero sequel.",
+      "description_es": "Peter Parker y Miles Morales se enfrentan a Venom y Kraven el Cazador en la secuela de mundo abierto de superhéroes de Insomniac para PS5.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000019",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/8/8c/Marvel%27s_Spider-Man_2_cover_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000105",
+    "fields": {
+      "name_en": "Returnal",
+      "name_es": "Returnal",
+      "slug": "returnal",
+      "description_en": "Selene crash-lands on an alien planet and is trapped in a time loop, reliving her death over and over in Housemarque's roguelike shooter.",
+      "description_es": "Selene aterriza de emergencia en un planeta alienígena y queda atrapada en un bucle temporal, reviviendo su muerte una y otra vez en el shooter roguelike de Housemarque.",
+      "release_year": 2021,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Returnal_cover_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000106",
+    "fields": {
+      "name_en": "Demon's Souls (2020)",
+      "name_es": "Demon's Souls (2020)",
+      "slug": "demons-souls-2020",
+      "description_en": "Bluepoint's stunning PS5 remake of FromSoftware's 2009 soulslike, rebuilt from the ground up with ray-traced visuals.",
+      "description_es": "El impresionante remake de PS5 de Bluepoint del soulslike de FromSoftware de 2009, reconstruido desde cero con visuales de ray-tracing.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/3/38/Demon%27s_Souls_2020_Cover_Art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000107",
+    "fields": {
+      "name_en": "Astro's Playroom",
+      "name_es": "Astro's Playroom",
+      "slug": "astros-playroom",
+      "description_en": "A love letter to PlayStation history, showcasing the PS5 DualSense controller features while Astro Bot navigates CPU Plaza.",
+      "description_es": "Una carta de amor a la historia de PlayStation, mostrando las características del mando DualSense de PS5 mientras Astro Bot navega por la Plaza CPU.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/e/e8/Astro%27s_Playroom_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000108",
+    "fields": {
+      "name_en": "Halo Infinite",
+      "name_es": "Halo Infinite",
+      "slug": "halo-infinite",
+      "description_en": "Master Chief faces the Banished on the ringworld Zeta Halo in 343 Industries' open-world FPS with a free-to-play multiplayer mode.",
+      "description_es": "El Jefe Maestro se enfrenta a los Desterrados en el mundo anular Zeta Halo en el FPS de mundo abierto de 343 Industries con modo multijugador gratuito.",
+      "release_year": 2021,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000109",
+    "fields": {
+      "name_en": "Forza Horizon 5",
+      "name_es": "Forza Horizon 5",
+      "slug": "forza-horizon-5",
+      "description_en": "Playground Games' open-world racing game set in a stunning recreation of Mexico with hundreds of cars and diverse biomes.",
+      "description_es": "El juego de carreras de mundo abierto de Playground Games ambientado en una impresionante recreación de México con cientos de coches y biomas diversos.",
+      "release_year": 2021,
+      "genre": "11111111-0000-0000-0000-000000000009",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000110",
+    "fields": {
+      "name_en": "Sea of Thieves",
+      "name_es": "Sea of Thieves",
+      "slug": "sea-of-thieves",
+      "description_en": "Rare's shared-world pirate adventure where crews sail the seas, hunt treasure, and engage in naval battles.",
+      "description_es": "La aventura pirata de mundo compartido de Rare donde las tripulaciones navegan los mares, cazan tesoros y se enfrentan en batallas navales.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000111",
+    "fields": {
+      "name_en": "Ori and the Will of the Wisps",
+      "name_es": "Ori and the Will of the Wisps",
+      "slug": "ori-and-the-will-of-the-wisps",
+      "description_en": "The spirit Ori ventures into the forest of Niwen in Moon Studios' visually breathtaking Metroidvania platformer sequel.",
+      "description_es": "El espíritu Ori se aventura en el bosque de Niwen en la impresionante secuela de plataformas Metroidvania de Moon Studios.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1057090/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000112",
+    "fields": {
+      "name_en": "Sonic Generations",
+      "name_es": "Sonic Generations",
+      "slug": "sonic-generations",
+      "description_en": "Classic and Modern Sonic team up to fix a rift in time, revisiting iconic stages across 20 years of Sonic history.",
+      "description_es": "Sonic Clásico y Moderno se unen para reparar una grieta en el tiempo, revisitando etapas icónicas de 20 años de historia de Sonic.",
+      "release_year": 2011,
+      "genre": "11111111-0000-0000-0000-000000000004",
+      "developer": "22222222-0000-0000-0000-000000000004",
+      "publisher": "22222222-0000-0000-0000-000000000004",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/71340/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000113",
+    "fields": {
+      "name_en": "Yakuza 0",
+      "name_es": "Yakuza 0",
+      "slug": "yakuza-0",
+      "description_en": "The prequel to the Yakuza series follows Kazuma Kiryu and Goro Majima in 1988 Japan, embroiled in a deadly real-estate war.",
+      "description_es": "La precuela de la serie Yakuza sigue a Kazuma Kiryu y Goro Majima en el Japón de 1988, enredados en una mortal guerra inmobiliaria.",
+      "release_year": 2015,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000004",
+      "publisher": "22222222-0000-0000-0000-000000000004",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/638970/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000114",
+    "fields": {
+      "name_en": "Yakuza: Like a Dragon",
+      "name_es": "Yakuza: Like a Dragon",
+      "slug": "yakuza-like-a-dragon",
+      "description_en": "Ichiban Kasuga rises from the streets of Yokohama to uncover a conspiracy in Sega's turn-based RPG spinoff of the Yakuza series.",
+      "description_es": "Ichiban Kasuga asciende desde las calles de Yokohama para descubrir una conspiración en el RPG por turnos de Sega derivado de la serie Yakuza.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000004",
+      "publisher": "22222222-0000-0000-0000-000000000004",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1235140/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000115",
+    "fields": {
+      "name_en": "Mortal Kombat 11",
+      "name_es": "Mortal Kombat 11",
+      "slug": "mortal-kombat-11",
+      "description_en": "Kronika attempts to rewrite history in NetherRealm's stunning fighting game featuring time-bending story and roster from across MK's timeline.",
+      "description_es": "Kronika intenta reescribir la historia en el impresionante juego de lucha de NetherRealm con una historia de viajes en el tiempo y un plantel de toda la cronología de MK.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000011",
+      "publisher": "22222222-0000-0000-0000-000000000011",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/976310/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000116",
+    "fields": {
+      "name_en": "Injustice 2",
+      "name_es": "Injustice 2",
+      "slug": "injustice-2",
+      "description_en": "Batman and Superman clash again as Brainiac threatens Earth in NetherRealm's DC fighting game with deep gear customization.",
+      "description_es": "Batman y Superman vuelven a enfrentarse mientras Brainiac amenaza la Tierra en el juego de lucha DC de NetherRealm con profunda personalización de equipo.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000011",
+      "publisher": "22222222-0000-0000-0000-000000000011",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/535370/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000117",
+    "fields": {
+      "name_en": "Street Fighter 6",
+      "name_es": "Street Fighter 6",
+      "slug": "street-fighter-6",
+      "description_en": "Capcom's bold new entry in the fighting series features the Drive System mechanic, World Tour mode, and a vibrant new visual style.",
+      "description_es": "La audaz nueva entrega de Capcom en la serie de lucha presenta el sistema Drive, el modo World Tour y un vibrante nuevo estilo visual.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1794960/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000118",
+    "fields": {
+      "name_en": "Tekken 8",
+      "name_es": "Tekken 8",
+      "slug": "tekken-8",
+      "description_en": "Kazuya Mishima and Jin Kazama's father-son conflict reaches its climax in Bandai Namco's visually stunning 3D fighting game.",
+      "description_es": "El conflicto entre padre e hijo de Kazuya Mishima y Jin Kazama llega a su clímax en el visualmente impresionante juego de lucha 3D de Bandai Namco.",
+      "release_year": 2024,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000012",
+      "publisher": "22222222-0000-0000-0000-000000000012",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1778820/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000119",
+    "fields": {
+      "name_en": "Dragon Ball FighterZ",
+      "name_es": "Dragon Ball FighterZ",
+      "slug": "dragon-ball-fighterz",
+      "description_en": "Arc System Works' 2.5D fighting game faithfully recreates the Dragon Ball anime's art style with deep tag-team mechanics.",
+      "description_es": "El juego de lucha 2.5D de Arc System Works recrea fielmente el estilo artístico del anime Dragon Ball con profundas mecánicas de equipo.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000006",
+      "developer": "22222222-0000-0000-0000-000000000012",
+      "publisher": "22222222-0000-0000-0000-000000000012",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/678950/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000120",
+    "fields": {
+      "name_en": "Resident Evil Village",
+      "name_es": "Resident Evil Village",
+      "slug": "resident-evil-village",
+      "description_en": "Ethan Winters searches for his kidnapped daughter in an Eastern European village terrorized by Lady Dimitrescu and other lords.",
+      "description_es": "Ethan Winters busca a su hija secuestrada en un pueblo de Europa del Este aterrorizado por Lady Dimitrescu y otros señores.",
+      "release_year": 2021,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000121",
+    "fields": {
+      "name_en": "Resident Evil 2 Remake",
+      "name_es": "Resident Evil 2 Remake",
+      "slug": "resident-evil-2-remake",
+      "description_en": "Leon Kennedy and Claire Redfield escape Raccoon City in Capcom's stunning over-the-shoulder remake of the 1998 classic.",
+      "description_es": "Leon Kennedy y Claire Redfield escapan de Raccoon City en el impresionante remake en tercera persona de Capcom del clásico de 1998.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/883710/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000122",
+    "fields": {
+      "name_en": "Devil May Cry 5",
+      "name_es": "Devil May Cry 5",
+      "slug": "devil-may-cry-5",
+      "description_en": "Dante, Nero, and newcomer V battle the Demon King Urizen to save the world in Capcom's stylish return to the classic DMC formula.",
+      "description_es": "Dante, Nero y el recién llegado V luchan contra el Rey Demonio Urizen para salvar el mundo en el estiloso regreso de Capcom a la fórmula clásica de DMC.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/601150/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000123",
+    "fields": {
+      "name_en": "Monster Hunter: World",
+      "name_es": "Monster Hunter: World",
+      "slug": "monster-hunter-world",
+      "description_en": "Hunters track and slay enormous monsters across lush ecosystems to craft powerful gear in Capcom's breakthrough global hit.",
+      "description_es": "Los cazadores rastrean y matan monstruos enormes por exuberantes ecosistemas para fabricar equipo poderoso en el gran éxito global de Capcom.",
+      "release_year": 2018,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000006",
+      "publisher": "22222222-0000-0000-0000-000000000006",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000124",
+    "fields": {
+      "name_en": "Dark Souls III",
+      "name_es": "Dark Souls III",
+      "slug": "dark-souls-iii",
+      "description_en": "The Ashen One must link the First Flame or let it die in FromSoftware's acclaimed conclusion to the Dark Souls trilogy.",
+      "description_es": "El Ceniciento debe vincular la Primera Llama o dejarla morir en la aclamada conclusión de FromSoftware a la trilogía Dark Souls.",
+      "release_year": 2016,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000016",
+      "publisher": "22222222-0000-0000-0000-000000000012",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000125",
+    "fields": {
+      "name_en": "The Elder Scrolls IV: Oblivion",
+      "name_es": "The Elder Scrolls IV: Oblivion",
+      "slug": "the-elder-scrolls-iv-oblivion",
+      "description_en": "The Hero of Kvatch must seal Oblivion Gates and stop Mehrunes Dagon's invasion of Tamriel in Bethesda's acclaimed open-world RPG.",
+      "description_es": "El Héroe de Kvatch debe sellar las Puertas de Oblivion y detener la invasión de Mehrunes Dagon en el aclamado RPG de mundo abierto de Bethesda.",
+      "release_year": 2006,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000017",
+      "publisher": "22222222-0000-0000-0000-000000000017",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000025",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/22330/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000126",
+    "fields": {
+      "name_en": "Starfield",
+      "name_es": "Starfield",
+      "slug": "starfield",
+      "description_en": "Bethesda's first original RPG in 25 years puts players in the role of a space explorer uncovering the mystery of mysterious alien artifacts.",
+      "description_es": "El primer RPG original de Bethesda en 25 años pone a los jugadores en el papel de un explorador espacial que descubre el misterio de unos artefactos alienígenas.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000017",
+      "publisher": "22222222-0000-0000-0000-000000000017",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000127",
+    "fields": {
+      "name_en": "Fallout 4",
+      "name_es": "Fallout 4",
+      "slug": "fallout-4",
+      "description_en": "The Sole Survivor searches for their kidnapped son across the Commonwealth wasteland of post-nuclear Boston in Bethesda's open-world RPG.",
+      "description_es": "El Único Superviviente busca a su hijo secuestrado por el yermo del Commonwealth de Boston postnuclear en el RPG de mundo abierto de Bethesda.",
+      "release_year": 2015,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000017",
+      "publisher": "22222222-0000-0000-0000-000000000017",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/377160/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000128",
+    "fields": {
+      "name_en": "FIFA 22",
+      "name_es": "FIFA 22",
+      "slug": "fifa-22",
+      "description_en": "EA Sports' football simulation leveraging HyperMotion technology to deliver more realistic player animations and movement.",
+      "description_es": "La simulación de fútbol de EA Sports aprovechando la tecnología HyperMotion para ofrecer animaciones y movimientos de jugadores más realistas.",
+      "release_year": 2021,
+      "genre": "11111111-0000-0000-0000-000000000008",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/98/FIFA_22_Cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000129",
+    "fields": {
+      "name_en": "EA Sports FC 24",
+      "name_es": "EA Sports FC 24",
+      "slug": "ea-sports-fc-24",
+      "description_en": "The first football simulation under EA's own branding after departing FIFA, featuring HyperMotion V and Ultimate Team.",
+      "description_es": "La primera simulación de fútbol bajo la propia marca de EA tras separarse de FIFA, con HyperMotion V y Ultimate Team.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000008",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/7f/EA_Sports_FC_24_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000130",
+    "fields": {
+      "name_en": "NBA 2K24",
+      "name_es": "NBA 2K24",
+      "slug": "nba-2k24",
+      "description_en": "2K's basketball simulation featuring Kobe Bryant as the cover athlete with updated rosters and the new ProPLAY technology.",
+      "description_es": "La simulación de baloncesto de 2K con Kobe Bryant como atleta de portada, plantillas actualizadas y la nueva tecnología ProPLAY.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000008",
+      "developer": "22222222-0000-0000-0000-000000000020",
+      "publisher": "22222222-0000-0000-0000-000000000020",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/7/77/NBA_2K24_cover_art.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000131",
+    "fields": {
+      "name_en": "Grand Theft Auto: San Andreas",
+      "name_es": "Grand Theft Auto: San Andreas",
+      "slug": "grand-theft-auto-san-andreas",
+      "description_en": "CJ returns to Los Santos to avenge his mother's murder and reclaim his gang's territory in Rockstar's beloved open-world epic.",
+      "description_es": "CJ regresa a Los Santos para vengar el asesinato de su madre y recuperar el territorio de su banda en la querida épica de mundo abierto de Rockstar.",
+      "release_year": 2004,
+      "genre": "11111111-0000-0000-0000-000000000013",
+      "developer": "22222222-0000-0000-0000-000000000013",
+      "publisher": "22222222-0000-0000-0000-000000000013",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018",
+        "33333333-0000-0000-0000-000000000025"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/1/18/Grand_Theft_Auto_-_San_Andreas_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000132",
+    "fields": {
+      "name_en": "Grand Theft Auto IV",
+      "name_es": "Grand Theft Auto IV",
+      "slug": "grand-theft-auto-iv",
+      "description_en": "Eastern European immigrant Niko Bellic seeks the American Dream in Liberty City in Rockstar's dark and cinematic open-world crime game.",
+      "description_es": "El inmigrante de Europa del Este Niko Bellic busca el Sueño Americano en Liberty City en el oscuro y cinematográfico juego de crimen de mundo abierto de Rockstar.",
+      "release_year": 2008,
+      "genre": "11111111-0000-0000-0000-000000000013",
+      "developer": "22222222-0000-0000-0000-000000000013",
+      "publisher": "22222222-0000-0000-0000-000000000013",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000133",
+    "fields": {
+      "name_en": "Max Payne 2: The Fall of Max Payne",
+      "name_es": "Max Payne 2: La Caída de Max Payne",
+      "slug": "max-payne-2",
+      "description_en": "Max Payne investigates a conspiracy involving the Inner Circle while grappling with his feelings for the femme fatale Mona Sax.",
+      "description_es": "Max Payne investiga una conspiración que involucra al Círculo Interior mientras lidia con sus sentimientos por la femme fatale Mona Sax.",
+      "release_year": 2003,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000013",
+      "publisher": "22222222-0000-0000-0000-000000000013",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000018",
+        "33333333-0000-0000-0000-000000000025"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/12150/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000134",
+    "fields": {
+      "name_en": "Left 4 Dead 2",
+      "name_es": "Left 4 Dead 2",
+      "slug": "left-4-dead-2",
+      "description_en": "Four survivors fight through hordes of infected in the American South in Valve's acclaimed cooperative zombie shooter.",
+      "description_es": "Cuatro supervivientes luchan contra hordas de infectados en el sur de Estados Unidos en el aclamado shooter zombie cooperativo de Valve.",
+      "release_year": 2009,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000014",
+      "publisher": "22222222-0000-0000-0000-000000000014",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/550/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000135",
+    "fields": {
+      "name_en": "Team Fortress 2",
+      "name_es": "Team Fortress 2",
+      "slug": "team-fortress-2",
+      "description_en": "Valve's free-to-play class-based multiplayer shooter with nine unique mercenaries, known for its cartoon art style and active community.",
+      "description_es": "El shooter multijugador gratuito de Valve basado en clases con nueve mercenarios únicos, conocido por su estilo artístico de dibujos animados y su activa comunidad.",
+      "release_year": 2007,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000014",
+      "publisher": "22222222-0000-0000-0000-000000000014",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/440/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000136",
+    "fields": {
+      "name_en": "Borderlands 2",
+      "name_es": "Borderlands 2",
+      "slug": "borderlands-2",
+      "description_en": "Four Vault Hunters battle the corporate villain Handsome Jack on Pandora in Gearbox's beloved looter-shooter with millions of procedurally generated guns.",
+      "description_es": "Cuatro Cazadores de Cámaras combaten al villano corporativo Handsome Jack en Pandora en el querido looter-shooter de Gearbox con millones de armas generadas proceduralmente.",
+      "release_year": 2012,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000020",
+      "publisher": "22222222-0000-0000-0000-000000000020",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/49520/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000137",
+    "fields": {
+      "name_en": "Bioshock Infinite",
+      "name_es": "Bioshock Infinite",
+      "slug": "bioshock-infinite",
+      "description_en": "Booker DeWitt retrieves a mysterious woman Elizabeth from the floating city of Columbia in Irrational Games' acclaimed narrative FPS.",
+      "description_es": "Booker DeWitt recupera a la misteriosa Elizabeth de la ciudad flotante de Columbia en el aclamado FPS narrativo de Irrational Games.",
+      "release_year": 2013,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000020",
+      "publisher": "22222222-0000-0000-0000-000000000020",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000019",
+        "33333333-0000-0000-0000-000000000026"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/8870/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000138",
+    "fields": {
+      "name_en": "Hades",
+      "name_es": "Hades",
+      "slug": "hades",
+      "description_en": "Zagreus fights his way out of the Underworld in Supergiant Games' acclaimed roguelike dungeon crawler with deep character interactions.",
+      "description_es": "Zagreus lucha por salir del Inframundo en el aclamado roguelike dungeon crawler de Supergiant Games con profundas interacciones de personajes.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000139",
+    "fields": {
+      "name_en": "Cuphead",
+      "name_es": "Cuphead",
+      "slug": "cuphead",
+      "description_en": "Cuphead and Mugman must repay a debt to the Devil by collecting souls in Studio MDHR's gorgeous 1930s cartoon-style run-and-gun.",
+      "description_es": "Cuphead y Mugman deben pagar una deuda al Diablo coleccionando almas en el precioso run-and-gun de estilo de dibujos animados de los años 30 de Studio MDHR.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000140",
+    "fields": {
+      "name_en": "Undertale",
+      "name_es": "Undertale",
+      "slug": "undertale",
+      "description_en": "A child falls into the Underground and must find their way home in Toby Fox's acclaimed indie RPG where you don't have to kill anyone.",
+      "description_es": "Un niño cae al Subsuelo y debe encontrar el camino a casa en el aclamado RPG indie de Toby Fox donde no tienes que matar a nadie.",
+      "release_year": 2015,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000007",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000141",
+    "fields": {
+      "name_en": "Disco Elysium",
+      "name_es": "Disco Elysium",
+      "slug": "disco-elysium",
+      "description_en": "A disgraced detective with amnesia investigates a murder in a run-down harbour district in ZA/UM's groundbreaking dialogue-heavy RPG.",
+      "description_es": "Un detective deshonrado con amnesia investiga un asesinato en un deteriorado distrito portuario en el revolucionario RPG de diálogos de ZA/UM.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000023",
+      "publisher": "22222222-0000-0000-0000-000000000023",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/632470/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000142",
+    "fields": {
+      "name_en": "It Takes Two",
+      "name_es": "It Takes Two",
+      "slug": "it-takes-two",
+      "description_en": "A couple on the brink of divorce are magically transformed into dolls and must cooperate through imaginative worlds to reunite with their daughter.",
+      "description_es": "Una pareja al borde del divorcio es transformada mágicamente en muñecos y debe cooperar por mundos imaginativos para reunirse con su hija.",
+      "release_year": 2021,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000010",
+      "publisher": "22222222-0000-0000-0000-000000000010",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029",
+        "33333333-0000-0000-0000-000000000007"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000143",
+    "fields": {
+      "name_en": "Doom Eternal",
+      "name_es": "Doom Eternal",
+      "slug": "doom-eternal",
+      "description_en": "The Doom Slayer battles demonic invasions across Earth and Hell's dimensions in id Software's frenetic high-speed FPS sequel.",
+      "description_es": "El Cazador del Doom combate invasiones demoníacas por la Tierra y las dimensiones del Infierno en la frenética secuela FPS de alta velocidad de id Software.",
+      "release_year": 2020,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000017",
+      "publisher": "22222222-0000-0000-0000-000000000017",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000144",
+    "fields": {
+      "name_en": "Prey (2017)",
+      "name_es": "Prey (2017)",
+      "slug": "prey-2017",
+      "description_en": "Morgan Yu uncovers Typhon alien experiments aboard Talos I space station in Arkane's immersive sim with deep systems and atmosphere.",
+      "description_es": "Morgan Yu descubre los experimentos alienígenas Typhon a bordo de la estación espacial Talos I en el inmersivo simulador de Arkane con profundos sistemas y atmósfera.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000005",
+      "developer": "22222222-0000-0000-0000-000000000017",
+      "publisher": "22222222-0000-0000-0000-000000000017",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/480490/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000145",
+    "fields": {
+      "name_en": "Baldur's Gate 3",
+      "name_es": "Baldur's Gate 3",
+      "slug": "baldurs-gate-3",
+      "description_en": "Tadpole-infected survivors navigate the Forgotten Realms in Larian Studios' acclaimed D&D RPG featuring unparalleled reactive storytelling.",
+      "description_es": "Supervivientes infectados por renacuajos navegan los Reinos Olvidados en el aclamado RPG de D&D de Larian Studios con una narración reactiva sin igual.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000015",
+      "publisher": "22222222-0000-0000-0000-000000000015",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000146",
+    "fields": {
+      "name_en": "Divinity: Original Sin 2",
+      "name_es": "Divinity: Original Sin 2",
+      "slug": "divinity-original-sin-2",
+      "description_en": "Source-wielding prisoners escape Fort Joy and battle to become the next Divine in Larian's acclaimed isometric tactical RPG.",
+      "description_es": "Prisioneros con poderes de Fuente escapan de Fort Joy y luchan por convertirse en el próximo Divino en el aclamado RPG táctico isométrico de Larian.",
+      "release_year": 2017,
+      "genre": "11111111-0000-0000-0000-000000000003",
+      "developer": "22222222-0000-0000-0000-000000000015",
+      "publisher": "22222222-0000-0000-0000-000000000015",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000027"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000147",
+    "fields": {
+      "name_en": "Horizon Forbidden West",
+      "name_es": "Horizon Forbidden West",
+      "slug": "horizon-forbidden-west",
+      "description_en": "Aloy journeys into the Forbidden West to stop a deadly blight threatening all life in Guerrilla Games' stunning open-world sequel.",
+      "description_es": "Aloy se adentra en el Oeste Prohibido para detener una mortal plaga que amenaza toda la vida en la impresionante secuela de mundo abierto de Guerrilla Games.",
+      "release_year": 2022,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000025",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/2420110/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000148",
+    "fields": {
+      "name_en": "Death Stranding",
+      "name_es": "Death Stranding",
+      "slug": "death-stranding",
+      "description_en": "Courier Sam Porter Bridges reconnects a fractured America and battles supernatural entities called BTs in Hideo Kojima's divisive open-world game.",
+      "description_es": "El mensajero Sam Porter Bridges reconecta una América fracturada y combate entidades sobrenaturales llamadas BTs en el divisivo juego de mundo abierto de Hideo Kojima.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000002",
+      "developer": "22222222-0000-0000-0000-000000000002",
+      "publisher": "22222222-0000-0000-0000-000000000002",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1190460/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000149",
+    "fields": {
+      "name_en": "Control",
+      "name_es": "Control",
+      "slug": "control",
+      "description_en": "Jesse Faden fights paranatural threats inside the brutalist Federal Bureau of Control building wielding telekinetic powers in Remedy's surreal action game.",
+      "description_es": "Jesse Faden lucha contra amenazas paranaturales dentro del edificio brutalista de la Oficina Federal de Control usando poderes telequinéticos en el surrealista juego de acción de Remedy.",
+      "release_year": 2019,
+      "genre": "11111111-0000-0000-0000-000000000001",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000020",
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000027",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/870780/header.jpg"
+    }
+  },
+  {
+    "model": "games.games",
+    "pk": "44444444-0000-0000-0000-000000000150",
+    "fields": {
+      "name_en": "Alan Wake 2",
+      "name_es": "Alan Wake 2",
+      "slug": "alan-wake-2",
+      "description_en": "Cult horror writer Alan Wake and FBI agent Saga Anderson face a Dark Presence across two realities in Remedy's acclaimed psychological horror sequel.",
+      "description_es": "El escritor de terror de culto Alan Wake y la agente del FBI Saga Anderson se enfrentan a una Presencia Oscura en dos realidades en la aclamada secuela de terror psicológico de Remedy.",
+      "release_year": 2023,
+      "genre": "11111111-0000-0000-0000-000000000011",
+      "developer": "22222222-0000-0000-0000-000000000003",
+      "publisher": "22222222-0000-0000-0000-000000000003",
+      "consoles": [
+        "33333333-0000-0000-0000-000000000022",
+        "33333333-0000-0000-0000-000000000029"
+      ],
+      "active": true,
+      "deleted_at": null,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z",
+      "cover_url": "https://cdn.akamai.steamstatic.com/steam/apps/1259420/header.jpg"
     }
   }
 ]

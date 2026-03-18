@@ -9,6 +9,8 @@ dependencies = [
     "django-modeltranslation>=0.18",
     "gunicorn>=21.0",
     "psycopg2-binary>=2.9",
+    "inertia-django==1.2.0",
+    "django-vite>=3.0",
 ]
 
 [dependency-groups]

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="url(#bg)"/>
+  <!-- Gamepad body -->
+  <rect x="12" y="22" width="40" height="22" rx="11" ry="11" fill="white" opacity="0.95"/>
+  <!-- Left grip -->
+  <rect x="12" y="30" width="10" height="18" rx="5" ry="5" fill="white" opacity="0.95"/>
+  <!-- Right grip -->
+  <rect x="42" y="30" width="10" height="18" rx="5" ry="5" fill="white" opacity="0.95"/>
+  <!-- D-pad horizontal -->
+  <rect x="18" y="31" width="10" height="3.5" rx="1.5" fill="#4f46e5"/>
+  <!-- D-pad vertical -->
+  <rect x="21.25" y="28" width="3.5" height="10" rx="1.5" fill="#4f46e5"/>
+  <!-- Action buttons -->
+  <circle cx="40" cy="30" r="2" fill="#7c3aed"/>
+  <circle cx="44" cy="33.5" r="2" fill="#06b6d4"/>
+  <circle cx="36" cy="33.5" r="2" fill="#f59e0b"/>
+  <circle cx="40" cy="37" r="2" fill="#4f46e5"/>
+  <!-- Center buttons -->
+  <rect x="29" y="31.5" width="3" height="2.5" rx="1.25" fill="#4f46e5" opacity="0.7"/>
+  <rect x="32.5" y="31.5" width="3" height="2.5" rx="1.25" fill="#4f46e5" opacity="0.7"/>
+</svg>

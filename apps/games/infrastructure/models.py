@@ -36,6 +36,7 @@ class Games(BaseModel):
         on_delete=models.SET_NULL,
         related_name="published_games",
     )
+    cover_url = models.URLField(max_length=500, blank=True, default="")
     consoles = models.ManyToManyField(
         "consoles.Consoles",
         blank=True,
